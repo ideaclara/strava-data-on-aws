@@ -1,0 +1,78 @@
+{
+  "Item": {
+    "private": false,
+    "distance": 2575.37,
+    "resource_state": 3,
+    "hazardous": false,
+    "maximum_grade": 16.6,
+    "elevation_high": 242.4,
+    "country": "United Kingdom",
+    "name": "Toy's Hill",
+    "elevation_low": 65.8,
+    "segmentId": "6691062",
+    "state": "England",
+    "end_latlng": [
+      51.246867531091176,
+      0.1053277959674114
+    ],
+    "city": "Sevenoaks",
+    "starred": true,
+    "activity_type": "Ride",
+    "id": 6691062,
+    "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/D2J7PJ5LACDHANDWHJT3NIA5M5EDHPIA7TEHP7ZAEO7AATVNOQD6L3ICEBXJDUMISIWSMM77XIB3VKYBDKWRGQ3C",
+    "climb_category": 2,
+    "start_latlng": [
+      51.22484053379342,
+      0.10586609281734219
+    ],
+    "last_synced_at": "2026-09-14T14:13:23.210Z",
+    "average_grade": 8.5,
+    "elevation_profiles": {
+      "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/D2J7PJ5LACDHANDWHJT3NIA5M5EDHPIA7TEHP7ZAEO7AATVNOQD6L3ICEBXJDUMISIWSMM77XIB3VKYBDKWRGQ3C",
+      "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/TDHOAHGQ6CVOHTELGD4RUPT32OVWN2CNHQ5YG4DKN4O64HNLL4NCIVDMQC3YQVNV6A6I53XSXSRQAYPKCKBPWPFP"
+    },
+    "local_legend": {
+      "effort_count": "9",
+      "profile": "avatar/athlete/large.png",
+      "title": "ian leigh",
+      "athlete_id_str": "65383097",
+      "athlete_id": 65383097,
+      "effort_counts": {
+        "female": "3 efforts",
+        "overall": "9 efforts"
+      },
+      "destination": "strava://segments/6691062/local_legend?categories%5B%5D=overall",
+      "effort_description": "9 efforts in the last 90 days"
+    },
+    "total_elevation_gain": 176.6,
+    "xoms": {
+      "kom": "6:27",
+      "overall": "6:27",
+      "qom": "8:14",
+      "destination": {
+        "href": "strava://segments/6691062/leaderboard",
+        "name": "All-Time",
+        "type": "overall"
+      }
+    },
+    "created_at": "2014-02-17T20:15:57Z",
+    "star_count": 1546,
+    "athlete_count": 18028,
+    "updated_at": "2026-09-14T08:03:47Z",
+    "athlete_segment_stats": {
+      "pr_elapsed_time": 590,
+      "pr_visibility": "everyone",
+      "pr_activity_visibility": "everyone",
+      "pr_activity_id": 3802285370,
+      "pr_activity_id_str": "3802285370",
+      "pr_date": "2020-07-22",
+      "effort_count": 7
+    },
+    "effort_count": 64502,
+    "map": {
+      "id": "s6691062",
+      "resource_state": 3,
+      "polyline": "ezswHytS_@[sDiAyEoBOIsEaESKcAUsC]}Ha@aHNaDo@iIfAyFhCqB]_H|@_DFcAjAmCdEeFjEiC`Co@Ly@BiFg@cHDiAe@yEmCaBC"
+    }
+  }
+}

@@ -1,0 +1,208 @@
+{
+    "Item": {
+        "private": {
+            "BOOL": false
+        },
+        "distance": {
+            "N": "2575.37"
+        },
+        "resource_state": {
+            "N": "3"
+        },
+        "hazardous": {
+            "BOOL": false
+        },
+        "maximum_grade": {
+            "N": "16.6"
+        },
+        "elevation_high": {
+            "N": "242.4"
+        },
+        "country": {
+            "S": "United Kingdom"
+        },
+        "name": {
+            "S": "Toy's Hill"
+        },
+        "elevation_low": {
+            "N": "65.8"
+        },
+        "segmentId": {
+            "S": "6691062"
+        },
+        "state": {
+            "S": "England"
+        },
+        "end_latlng": {
+            "L": [
+                {
+                    "N": "51.246867531091176"
+                },
+                {
+                    "N": "0.1053277959674114"
+                }
+            ]
+        },
+        "city": {
+            "S": "Sevenoaks"
+        },
+        "starred": {
+            "BOOL": true
+        },
+        "activity_type": {
+            "S": "Ride"
+        },
+        "id": {
+            "N": "6691062"
+        },
+        "elevation_profile": {
+            "S": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/D2J7PJ5LACDHANDWHJT3NIA5M5EDHPIA7TEHP7ZAEO7AATVNOQD6L3ICEBXJDUMISIWSMM77XIB3VKYBDKWRGQ3C"
+        },
+        "climb_category": {
+            "N": "2"
+        },
+        "start_latlng": {
+            "L": [
+                {
+                    "N": "51.22484053379342"
+                },
+                {
+                    "N": "0.10586609281734219"
+                }
+            ]
+        },
+        "last_synced_at": {
+            "S": "2026-09-14T14:13:23.210Z"
+        },
+        "average_grade": {
+            "N": "8.5"
+        },
+        "elevation_profiles": {
+            "M": {
+                "light_url": {
+                    "S": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/D2J7PJ5LACDHANDWHJT3NIA5M5EDHPIA7TEHP7ZAEO7AATVNOQD6L3ICEBXJDUMISIWSMM77XIB3VKYBDKWRGQ3C"
+                },
+                "dark_url": {
+                    "S": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/TDHOAHGQ6CVOHTELGD4RUPT32OVWN2CNHQ5YG4DKN4O64HNLL4NCIVDMQC3YQVNV6A6I53XSXSRQAYPKCKBPWPFP"
+                }
+            }
+        },
+        "local_legend": {
+            "M": {
+                "effort_count": {
+                    "S": "9"
+                },
+                "profile": {
+                    "S": "avatar/athlete/large.png"
+                },
+                "title": {
+                    "S": "ian leigh"
+                },
+                "athlete_id_str": {
+                    "S": "65383097"
+                },
+                "athlete_id": {
+                    "N": "65383097"
+                },
+                "effort_counts": {
+                    "M": {
+                        "female": {
+                            "S": "3 efforts"
+                        },
+                        "overall": {
+                            "S": "9 efforts"
+                        }
+                    }
+                },
+                "destination": {
+                    "S": "strava://segments/6691062/local_legend?categories%5B%5D=overall"
+                },
+                "effort_description": {
+                    "S": "9 efforts in the last 90 days"
+                }
+            }
+        },
+        "total_elevation_gain": {
+            "N": "176.6"
+        },
+        "xoms": {
+            "M": {
+                "kom": {
+                    "S": "6:27"
+                },
+                "overall": {
+                    "S": "6:27"
+                },
+                "qom": {
+                    "S": "8:14"
+                },
+                "destination": {
+                    "M": {
+                        "href": {
+                            "S": "strava://segments/6691062/leaderboard"
+                        },
+                        "name": {
+                            "S": "All-Time"
+                        },
+                        "type": {
+                            "S": "overall"
+                        }
+                    }
+                }
+            }
+        },
+        "created_at": {
+            "S": "2014-02-17T20:15:57Z"
+        },
+        "star_count": {
+            "N": "1546"
+        },
+        "athlete_count": {
+            "N": "18028"
+        },
+        "updated_at": {
+            "S": "2026-09-14T08:03:47Z"
+        },
+        "athlete_segment_stats": {
+            "M": {
+                "pr_elapsed_time": {
+                    "N": "590"
+                },
+                "pr_visibility": {
+                    "S": "everyone"
+                },
+                "pr_activity_visibility": {
+                    "S": "everyone"
+                },
+                "pr_activity_id": {
+                    "N": "3802285370"
+                },
+                "pr_activity_id_str": {
+                    "S": "3802285370"
+                },
+                "pr_date": {
+                    "S": "2020-07-22"
+                },
+                "effort_count": {
+                    "N": "7"
+                }
+            }
+        },
+        "effort_count": {
+            "N": "64502"
+        },
+        "map": {
+            "M": {
+                "id": {
+                    "S": "s6691062"
+                },
+                "resource_state": {
+                    "N": "3"
+                },
+                "polyline": {
+                    "S": "ezswHytS_@[sDiAyEoBOIsEaESKcAUsC]}Ha@aHNaDo@iIfAyFhCqB]_H|@_DFcAjAmCdEeFjEiC`Co@Ly@BiFg@cHDiAe@yEmCaBC"
+                }
+            }
+        }
+    }
+}

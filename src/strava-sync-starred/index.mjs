@@ -1,12 +1,30 @@
 import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
-import { DynamoDBDocumentClient, GetCommand, PutCommand } from "@aws-sdk/lib-dynamodb";
+import { DynamoDBDocumentClient, GetCommand, PutCommand, NumberValue } from "@aws-sdk/lib-dynamodb";
 import { SSMClient, GetParametersCommand } from "@aws-sdk/client-ssm";
+import { SQSClient, SendMessageBatchCommand } from "@aws-sdk/client-sqs";
 
 const ddb = DynamoDBDocumentClient.from(new DynamoDBClient({ region: "eu-west-2" }));
 const ssm = new SSMClient({ region: "eu-west-2" });
+const sqs = new SQSClient({ region: "eu-west-2" });
 
 const ATHLETE_DETAILS_TABLE = process.env.ATHLETE_DETAILS_TABLE || "AthleteDetails";
 const SEGMENTS_TABLE = process.env.SEGMENTS_TABLE || "StravaSegments";
+const ENRICHMENT_QUEUE_URL = process.env.ENRICHMENT_QUEUE_URL || "https://sqs.eu-west-2.amazonaws.com/022074716478/strava-segment-enrichment-queue";
+
+function sanitizeForDynamo(obj) {
+  if (obj === null || typeof obj !== "object") {
+    if (typeof obj === "number" && (obj > Number.MAX_SAFE_INTEGER || obj < Number.MIN_SAFE_INTEGER)) {
+      return NumberValue.from(String(obj));
+    }
+    return obj;
+  }
+  if (Array.isArray(obj)) return obj.map(sanitizeForDynamo);
+  const clean = {};
+  for (const [key, val] of Object.entries(obj)) {
+    clean[key] = sanitizeForDynamo(val);
+  }
+  return clean;
+}
 
 async function getSSMCredentials() {
   const cmd = new GetParametersCommand({
@@ -27,19 +45,11 @@ async function getValidToken(athleteId) {
     TableName: ATHLETE_DETAILS_TABLE,
     Key: { athleteId }
   }));
-
-  if (!result.Item) {
-    throw new Error(`No athlete record found for ID: ${athleteId}`);
-  }
+  if (!result.Item) throw new Error(`No athlete record found for ID: ${athleteId}`);
 
   let { access_token, refresh_token, expires_at } = result.Item;
-  const nowInSeconds = Math.floor(Date.now() / 1000);
-
-  // Refresh if expired or expiring within 5 minutes (300 seconds)
-  if (nowInSeconds >= expires_at - 300) {
-    console.log("Access token expiring or expired. Refreshing with Strava...");
+  if (Math.floor(Date.now() / 1000) >= expires_at - 300) {
     const { clientId, clientSecret } = await getSSMCredentials();
-
     const refreshRes = await fetch("https://www.strava.com/oauth/token", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -50,11 +60,7 @@ async function getValidToken(athleteId) {
         refresh_token,
       }),
     });
-
-    if (!refreshRes.ok) {
-      throw new Error(`Token refresh failed: ${await refreshRes.text()}`);
-    }
-
+    if (!refreshRes.ok) throw new Error(`Token refresh failed: ${await refreshRes.text()}`);
     const refreshed = await refreshRes.json();
     access_token = refreshed.access_token;
     refresh_token = refreshed.refresh_token;
@@ -70,9 +76,7 @@ async function getValidToken(athleteId) {
         updated_at: new Date().toISOString()
       }
     }));
-    console.log("Tokens successfully refreshed and persisted to DynamoDB.");
   }
-
   return access_token;
 }
 
@@ -92,24 +96,20 @@ export const handler = async (event) => {
 
     let page = 1;
     let totalSynced = 0;
-    const syncedSegments = [];
+    const allSegmentIds = [];
 
     while (true) {
-      console.log(`Querying Strava starred segments: page ${page} (per_page=200)...`);
       const res = await fetch(`https://www.strava.com/api/v3/segments/starred?page=${page}&per_page=200`, {
         headers: { Authorization: `Bearer ${token}` }
       });
-
-      if (!res.ok) {
-        throw new Error(`Strava API error (${res.status}): ${await res.text()}`);
-      }
+      if (!res.ok) throw new Error(`Strava API error (${res.status}): ${await res.text()}`);
 
       const segments = await res.json();
       if (!Array.isArray(segments) || segments.length === 0) break;
 
       for (const seg of segments) {
         const item = {
-          ...seg,
+          ...sanitizeForDynamo(seg),
           segmentId: String(seg.id),
           starred: true,
           last_synced_at: new Date().toISOString()
@@ -121,30 +121,38 @@ export const handler = async (event) => {
         }));
 
         totalSynced++;
-        syncedSegments.push({
-          segmentId: item.segmentId,
-          name: item.name,
-          climb_category: item.climb_category,
-          distance: item.distance
-        });
+        allSegmentIds.push(item.segmentId);
       }
 
       if (segments.length < 200) break;
       page++;
     }
 
+    // Push IDs to SQS in batches of 10
+    for (let i = 0; i < allSegmentIds.length; i += 10) {
+      const batch = allSegmentIds.slice(i, i + 10).map((id, idx) => ({
+        Id: `msg_${i + idx}`,
+        MessageBody: JSON.stringify({ segmentId: id, athleteId })
+      }));
+
+      await sqs.send(new SendMessageBatchCommand({
+        QueueUrl: ENRICHMENT_QUEUE_URL,
+        Entries: batch
+      }));
+    }
+
     return {
-      statusCode: 200,
+      statusCode: 202,
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        message: "Starred segments synchronization complete",
+        message: "Starred catalog synced; background detail enrichment queued",
         athleteId,
         totalSynced,
-        segments: syncedSegments
+        queuedForEnrichment: allSegmentIds.length
       })
     };
   } catch (err) {
-    console.error("Sync handler failure:", err);
+    console.error("Sync error:", err);
     return {
       statusCode: 500,
       headers: { "Content-Type": "application/json" },

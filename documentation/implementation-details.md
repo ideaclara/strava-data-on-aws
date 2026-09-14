@@ -51,3 +51,22 @@ Strava enforces strict rate limits across two sliding windows:
 * **Daily Quota:** 2,000 API requests
 
 By implementing `per_page=200` on starred segment synchronization, a complete catalog of 100–350 starred routes requires only **1 to 2 API requests total**. Subsequent segment lookups hit DynamoDB in ~15ms with zero consumption of Strava quota.
+
+Notes for Decoupled updating of POST /segments/sync-starred
+
+[ POST /segments/sync-starred ]
+         │
+         ▼
+[ Lambda: strava-sync-starred ]
+   ├─► 1. Fetches starred segments (1-2 Strava calls)
+   ├─► 2. Writes summary items to DynamoDB (StravaSegments)
+   ├─► 3. Pushes 101 message IDs to SQS: strava-segment-enrichment-queue
+   └─► 4. Returns HTTP 202 Accepted immediately (< 3s total runtime)
+               │
+               ▼
+   [ SQS: strava-segment-enrichment-queue ]
+               │  BatchSize: 1, MaximumConcurrency: 2
+               ▼
+[ Lambda: strava-enrich-segment-worker ]
+   ├─► Checks token & queries GET /segments/{segmentId}
+   └─► Upserts resource_state: 3 (polylines, stats, charts) to StravaSegments
