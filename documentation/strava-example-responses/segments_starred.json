@@ -1,0 +1,3991 @@
+[
+  {
+    "id": 257505,
+    "resource_state": 2,
+    "name": "Toy's Hill (Brasted Chart)",
+    "activity_type": "Ride",
+    "distance": 2926.09,
+    "average_grade": 5.5,
+    "maximum_grade": 10.3,
+    "elevation_high": 236,
+    "elevation_low": 91,
+    "start_latlng": [
+      51.275944,
+      0.107607
+    ],
+    "end_latlng": [
+      51.250751,
+      0.104783
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Westerham",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 516,
+    "athlete_pr_effort": {
+      "id": 69811034982,
+      "activity_id": 2395748909,
+      "activity_id_str": "2395748909",
+      "elapsed_time": 516,
+      "distance": 2926.09,
+      "start_date": "2019-05-25T08:51:51Z",
+      "start_date_local": "2019-05-25T09:51:51Z",
+      "is_kom": false
+    },
+    "starred_date": "2019-05-20T07:25:40Z"
+  },
+  {
+    "id": 581297,
+    "resource_state": 2,
+    "name": "Ide Hill( New Road)",
+    "activity_type": "Ride",
+    "distance": 1871.72,
+    "average_grade": 5.1,
+    "maximum_grade": 10,
+    "elevation_high": 177.5,
+    "elevation_low": 81.8,
+    "start_latlng": [
+      51.2778062,
+      0.1190292
+    ],
+    "end_latlng": [
+      51.2613225,
+      0.122029
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Sevenoaks",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 353,
+    "athlete_pr_effort": {
+      "id": 3508505649152252000,
+      "activity_id": 19177919979,
+      "activity_id_str": "19177919979",
+      "elapsed_time": 353,
+      "distance": 1871.72,
+      "start_date": "2026-07-04T13:12:09Z",
+      "start_date_local": "2026-07-04T14:12:09Z",
+      "is_kom": false
+    },
+    "starred_date": "2019-10-06T10:13:22Z"
+  },
+  {
+    "id": 614450,
+    "resource_state": 2,
+    "name": "Bayleys Hill",
+    "activity_type": "Ride",
+    "distance": 1310.52,
+    "average_grade": 7.2,
+    "maximum_grade": 16,
+    "elevation_high": 215.5,
+    "elevation_low": 121.3,
+    "start_latlng": [
+      51.2373409,
+      0.1668166
+    ],
+    "end_latlng": [
+      51.247144,
+      0.1711105
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Sevenoaks Weald",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 289,
+    "athlete_pr_effort": {
+      "id": 2998560019992026600,
+      "activity_id": 7707762834,
+      "activity_id_str": "7707762834",
+      "elapsed_time": 289,
+      "distance": 1310.52,
+      "start_date": "2022-08-27T08:23:08Z",
+      "start_date_local": "2022-08-27T09:23:08Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-01T08:41:54Z"
+  },
+  {
+    "id": 614779,
+    "resource_state": 2,
+    "name": "Sundridge Hill",
+    "activity_type": "Ride",
+    "distance": 1558.38,
+    "average_grade": 6.8,
+    "maximum_grade": 24.9,
+    "elevation_high": 234.7,
+    "elevation_low": 129,
+    "start_latlng": [
+      51.2972933,
+      0.1159346
+    ],
+    "end_latlng": [
+      51.3089808,
+      0.1086787
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Sundridge, Kent, UK",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 361,
+    "athlete_pr_effort": {
+      "id": 3257353207122661000,
+      "activity_id": 12111491905,
+      "activity_id_str": "12111491905",
+      "elapsed_time": 361,
+      "distance": 1558.38,
+      "start_date": "2024-08-10T09:18:25Z",
+      "start_date_local": "2024-08-10T10:18:25Z",
+      "is_kom": false
+    },
+    "starred_date": "2024-08-10T14:05:19Z"
+  },
+  {
+    "id": 616079,
+    "resource_state": 2,
+    "name": "Col du Télégraphe (par Saint Michel de Maurienne)",
+    "activity_type": "Ride",
+    "distance": 11959.5,
+    "average_grade": 6.8,
+    "maximum_grade": 17.3,
+    "elevation_high": 1561.9,
+    "elevation_low": 717.5,
+    "start_latlng": [
+      45.2155806,
+      6.474735
+    ],
+    "end_latlng": [
+      45.2026488,
+      6.4446963
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 5,
+    "city": "Saint Michel De Maurienne",
+    "state": "Rhône-Alpes",
+    "country": "France",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 4003,
+    "athlete_pr_effort": {
+      "id": 3513939636051816400,
+      "activity_id": 19378104521,
+      "activity_id_str": "19378104521",
+      "elapsed_time": 4003,
+      "distance": 11959.5,
+      "start_date": "2026-07-19T09:13:49Z",
+      "start_date_local": "2026-07-19T11:13:49Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-01T09:53:42Z"
+  },
+  {
+    "id": 622392,
+    "resource_state": 2,
+    "name": "Ide Hill Road",
+    "activity_type": "Ride",
+    "distance": 1612.47,
+    "average_grade": 6.4,
+    "maximum_grade": 9.5,
+    "elevation_high": 191.3,
+    "elevation_low": 95.8,
+    "start_latlng": [
+      51.231509,
+      0.131389
+    ],
+    "end_latlng": [
+      51.24508,
+      0.130503
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Sevenoaks",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 315,
+    "athlete_pr_effort": {
+      "id": 3493248298215189000,
+      "activity_id": 18621001952,
+      "activity_id_str": "18621001952",
+      "elapsed_time": 315,
+      "distance": 1612.47,
+      "start_date": "2026-05-23T09:22:08Z",
+      "start_date_local": "2026-05-23T10:22:08Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-01T08:41:49Z"
+  },
+  {
+    "id": 640617,
+    "resource_state": 2,
+    "name": "Hunton Hill",
+    "activity_type": "Ride",
+    "distance": 816.02,
+    "average_grade": 8.5,
+    "maximum_grade": 19,
+    "elevation_high": 114.6,
+    "elevation_low": 45.2,
+    "start_latlng": [
+      51.224898509681225,
+      0.47183250077068806
+    ],
+    "end_latlng": [
+      51.23114353045821,
+      0.47737520188093185
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Maidstone",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 190,
+    "athlete_pr_effort": {
+      "id": 3479195569705402400,
+      "activity_id": 18108253782,
+      "activity_id_str": "18108253782",
+      "elapsed_time": 190,
+      "distance": 816.02,
+      "start_date": "2026-04-14T16:28:19Z",
+      "start_date_local": "2026-04-14T17:28:19Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-01T08:39:14Z"
+  },
+  {
+    "id": 644980,
+    "resource_state": 2,
+    "name": "Polhill LVG",
+    "activity_type": "Ride",
+    "distance": 1486.46,
+    "average_grade": 3.6,
+    "maximum_grade": 5.3,
+    "elevation_high": 165,
+    "elevation_low": 111.7,
+    "start_latlng": [
+      51.309322,
+      0.158404
+    ],
+    "end_latlng": [
+      51.3219381,
+      0.1570598
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Sevenoaks",
+    "state": "Greater London",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 215,
+    "athlete_pr_effort": {
+      "id": 3225924443092963300,
+      "activity_id": 11419612966,
+      "activity_id_str": "11419612966",
+      "elapsed_time": 215,
+      "distance": 1486.46,
+      "start_date": "2024-05-15T19:09:46Z",
+      "start_date_local": "2024-05-15T20:09:46Z",
+      "is_kom": false
+    },
+    "starred_date": "2024-05-14T12:09:04Z"
+  },
+  {
+    "id": 648583,
+    "resource_state": 2,
+    "name": "Carters Hill",
+    "activity_type": "Ride",
+    "distance": 886.578,
+    "average_grade": 10.7,
+    "maximum_grade": 14.6,
+    "elevation_high": 190.9,
+    "elevation_low": 96.2,
+    "start_latlng": [
+      51.24886,
+      0.228621
+    ],
+    "end_latlng": [
+      51.25587,
+      0.232121
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Sevenoaks",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 256,
+    "athlete_pr_effort": {
+      "id": 3106673679364872700,
+      "activity_id": 9309447058,
+      "activity_id_str": "9309447058",
+      "elapsed_time": 256,
+      "distance": 886.578,
+      "start_date": "2023-06-21T18:22:51Z",
+      "start_date_local": "2023-06-21T19:22:51Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-01T08:42:01Z"
+  },
+  {
+    "id": 649635,
+    "resource_state": 2,
+    "name": "Soller to Tunel de Monnaber",
+    "activity_type": "Ride",
+    "distance": 14223.4,
+    "average_grade": 5.8,
+    "maximum_grade": 9.8,
+    "elevation_high": 854,
+    "elevation_low": 33.2,
+    "start_latlng": [
+      39.77938776835799,
+      2.7053030021488667
+    ],
+    "end_latlng": [
+      39.79103207588196,
+      2.774799456819892
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 5,
+    "city": "Sóller",
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 3356,
+    "athlete_pr_effort": {
+      "id": 3484238992419673000,
+      "activity_id": 18293811852,
+      "activity_id_str": "18293811852",
+      "elapsed_time": 3356,
+      "distance": 14223.4,
+      "start_date": "2026-04-28T12:36:05Z",
+      "start_date_local": "2026-04-28T14:36:05Z",
+      "is_kom": false
+    },
+    "starred_date": "2023-04-26T17:50:36Z"
+  },
+  {
+    "id": 652851,
+    "resource_state": 2,
+    "name": "Alpe d'Huez",
+    "activity_type": "Ride",
+    "distance": 12024.9,
+    "average_grade": 8.8,
+    "maximum_grade": 15.7,
+    "elevation_high": 1775.7,
+    "elevation_low": 728.4,
+    "start_latlng": [
+      45.0649319216609,
+      6.03998651728034
+    ],
+    "end_latlng": [
+      45.09066168218851,
+      6.0639028530567884
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 5,
+    "city": "Le Bourg D'Oisans",
+    "state": "Rhône-Alpes",
+    "country": "France",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 4435,
+    "athlete_pr_effort": {
+      "id": 3379429390073183000,
+      "activity_id": 15098723560,
+      "activity_id_str": "15098723560",
+      "elapsed_time": 4435,
+      "distance": 12024.9,
+      "start_date": "2025-07-13T08:13:14Z",
+      "start_date_local": "2025-07-13T10:13:14Z",
+      "is_kom": false
+    },
+    "starred_date": "2023-07-04T17:13:26Z"
+  },
+  {
+    "id": 653262,
+    "resource_state": 2,
+    "name": "Sa Calobra - Coll dels Reis",
+    "activity_type": "Ride",
+    "distance": 9416.77,
+    "average_grade": 7.2,
+    "maximum_grade": 11.5,
+    "elevation_high": 714.4,
+    "elevation_low": 54.6,
+    "start_latlng": [
+      39.847285,
+      2.797592
+    ],
+    "end_latlng": [
+      39.828023,
+      2.817683
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 4,
+    "city": "Escorca",
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 2303,
+    "athlete_pr_effort": {
+      "id": 3485608724646817300,
+      "activity_id": 18344101690,
+      "activity_id_str": "18344101690",
+      "elapsed_time": 2303,
+      "distance": 9416.77,
+      "start_date": "2026-05-02T08:19:38Z",
+      "start_date_local": "2026-05-02T10:19:38Z",
+      "is_kom": false
+    },
+    "starred_date": "2022-04-28T17:25:12Z"
+  },
+  {
+    "id": 653748,
+    "resource_state": 2,
+    "name": "Wall Hill Road",
+    "activity_type": "Ride",
+    "distance": 852.353,
+    "average_grade": 7.6,
+    "maximum_grade": 10.4,
+    "elevation_high": 130.7,
+    "elevation_low": 64.9,
+    "start_latlng": [
+      51.103045,
+      0.032591
+    ],
+    "end_latlng": [
+      51.109555,
+      0.027181
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Forest Row",
+    "state": "East Sussex",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 200,
+    "athlete_pr_effort": {
+      "id": 3100077841126966300,
+      "activity_id": 9194594755,
+      "activity_id_str": "9194594755",
+      "elapsed_time": 200,
+      "distance": 852.353,
+      "start_date": "2023-06-03T09:14:05Z",
+      "start_date_local": "2023-06-03T10:14:05Z",
+      "is_kom": false
+    },
+    "starred_date": "2022-01-07T18:30:07Z"
+  },
+  {
+    "id": 654280,
+    "resource_state": 2,
+    "name": "Col de Orient",
+    "activity_type": "Ride",
+    "distance": 5077.07,
+    "average_grade": 4.9,
+    "maximum_grade": 13.1,
+    "elevation_high": 481.2,
+    "elevation_low": 233,
+    "start_latlng": [
+      39.724852005019784,
+      2.804468460381031
+    ],
+    "end_latlng": [
+      39.73657267168164,
+      2.7752829249948263
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 2,
+    "city": "Alaró",
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 990,
+    "athlete_pr_effort": {
+      "id": 3483828726821832000,
+      "activity_id": 18278063537,
+      "activity_id_str": "18278063537",
+      "elapsed_time": 990,
+      "distance": 5077.07,
+      "start_date": "2026-04-27T09:05:34Z",
+      "start_date_local": "2026-04-27T11:05:34Z",
+      "is_kom": false
+    },
+    "starred_date": "2025-04-30T20:36:24Z"
+  },
+  {
+    "id": 665000,
+    "resource_state": 2,
+    "name": "Bal Lane, Trescowe",
+    "activity_type": "Ride",
+    "distance": 2084.86,
+    "average_grade": 4.1,
+    "maximum_grade": 11.9,
+    "elevation_high": 84,
+    "elevation_low": -1.6,
+    "start_latlng": [
+      50.1266973,
+      -5.3931768
+    ],
+    "end_latlng": [
+      50.127654,
+      -5.3672973
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Penzance",
+    "state": "Cornwall",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 331,
+    "athlete_pr_effort": {
+      "id": 3009078104806381600,
+      "activity_id": 7864254632,
+      "activity_id_str": "7864254632",
+      "elapsed_time": 331,
+      "distance": 2084.86,
+      "start_date": "2022-09-25T10:11:36Z",
+      "start_date_local": "2022-09-25T11:11:36Z",
+      "is_kom": false
+    },
+    "starred_date": "2022-09-24T17:15:44Z"
+  },
+  {
+    "id": 677682,
+    "resource_state": 2,
+    "name": "Carretera D'Andratx Climb",
+    "activity_type": "Ride",
+    "distance": 3135.5,
+    "average_grade": 5.3,
+    "maximum_grade": 12.4,
+    "elevation_high": 306.1,
+    "elevation_low": 138.8,
+    "start_latlng": [
+      39.653404,
+      2.483534
+    ],
+    "end_latlng": [
+      39.646324,
+      2.459569
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 2,
+    "city": "Estellencs",
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 764,
+    "athlete_pr_effort": {
+      "id": 3483163869755341000,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 764,
+      "distance": 3135.5,
+      "start_date": "2026-04-25T09:19:11Z",
+      "start_date_local": "2026-04-25T11:19:11Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-13T10:48:46Z"
+  },
+  {
+    "id": 683301,
+    "resource_state": 2,
+    "name": "Matfield Madness",
+    "activity_type": "Ride",
+    "distance": 1090.68,
+    "average_grade": 6.3,
+    "maximum_grade": 17.9,
+    "elevation_high": 108.8,
+    "elevation_low": 40,
+    "start_latlng": [
+      51.168352430686355,
+      0.3638937883079052
+    ],
+    "end_latlng": [
+      51.160789942368865,
+      0.36805800162255764
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Tonbridge",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 195,
+    "athlete_pr_effort": {
+      "id": 69811027428,
+      "activity_id": 2432957825,
+      "activity_id_str": "2432957825",
+      "elapsed_time": 195,
+      "distance": 1090.68,
+      "start_date": "2019-06-08T08:36:22Z",
+      "start_date_local": "2019-06-08T09:36:22Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-09-08T13:36:57Z"
+  },
+  {
+    "id": 686221,
+    "resource_state": 2,
+    "name": "Coll de sa Batalla",
+    "activity_type": "Ride",
+    "distance": 7879.97,
+    "average_grade": 5.2,
+    "maximum_grade": 13.8,
+    "elevation_high": 575.6,
+    "elevation_low": 189.9,
+    "start_latlng": [
+      39.77277704514563,
+      2.8987009171396494
+    ],
+    "end_latlng": [
+      39.812178360298276,
+      2.889722306281328
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 3,
+    "city": "Selva",
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 1616,
+    "athlete_pr_effort": {
+      "id": 3085211333606107600,
+      "activity_id": 8942966263,
+      "activity_id_str": "8942966263",
+      "elapsed_time": 1616,
+      "distance": 7879.97,
+      "start_date": "2023-04-23T08:44:08Z",
+      "start_date_local": "2023-04-23T10:44:08Z",
+      "is_kom": false
+    },
+    "starred_date": "2023-04-23T20:25:23Z"
+  },
+  {
+    "id": 743488,
+    "resource_state": 2,
+    "name": "Horrible Hubbards",
+    "activity_type": "Ride",
+    "distance": 970.06,
+    "average_grade": 8.4,
+    "maximum_grade": 21.1,
+    "elevation_high": 203.2,
+    "elevation_low": 122,
+    "start_latlng": [
+      51.2417849432677,
+      0.18843557685613632
+    ],
+    "end_latlng": [
+      51.250311098992825,
+      0.18869885243475437
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Sevenoaks Weald",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 261,
+    "athlete_pr_effort": {
+      "id": 3006188572971809300,
+      "activity_id": 7821904425,
+      "activity_id_str": "7821904425",
+      "elapsed_time": 261,
+      "distance": 970.06,
+      "start_date": "2022-09-17T08:24:58Z",
+      "start_date_local": "2022-09-17T09:24:58Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-01T08:41:58Z"
+  },
+  {
+    "id": 770191,
+    "resource_state": 2,
+    "name": "Ditchling Beacon",
+    "activity_type": "Ride",
+    "distance": 1428.66,
+    "average_grade": 9.7,
+    "maximum_grade": 12.3,
+    "elevation_high": 226.9,
+    "elevation_low": 88.8,
+    "start_latlng": [
+      50.908218,
+      -0.115513
+    ],
+    "end_latlng": [
+      50.900694,
+      -0.104585
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Hassocks",
+    "state": "East Sussex",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 426,
+    "athlete_pr_effort": {
+      "id": 3473005597230021600,
+      "activity_id": 17890567332,
+      "activity_id_str": "17890567332",
+      "elapsed_time": 426,
+      "distance": 1428.66,
+      "start_date": "2026-03-28T11:18:53Z",
+      "start_date_local": "2026-03-28T11:18:53Z",
+      "is_kom": false
+    },
+    "starred_date": "2019-08-31T18:07:27Z"
+  },
+  {
+    "id": 884409,
+    "resource_state": 2,
+    "name": "Penshurst Rd climb to Station Hill",
+    "activity_type": "Ride",
+    "distance": 1696.65,
+    "average_grade": 2.8,
+    "maximum_grade": 8,
+    "elevation_high": 85.6,
+    "elevation_low": 34.9,
+    "start_latlng": [
+      51.173291516666666,
+      0.18154214999999999
+    ],
+    "end_latlng": [
+      51.18764441666667,
+      0.18147296666666668
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Penshurst",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 206,
+    "athlete_pr_effort": {
+      "id": 69811023558,
+      "activity_id": 2442391539,
+      "activity_id_str": "2442391539",
+      "elapsed_time": 206,
+      "distance": 1696.65,
+      "start_date": "2019-06-11T17:46:31Z",
+      "start_date_local": "2019-06-11T18:46:31Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-01T08:57:19Z"
+  },
+  {
+    "id": 935494,
+    "resource_state": 2,
+    "name": "Vigo Hill Climb - Full",
+    "activity_type": "Ride",
+    "distance": 1441.9,
+    "average_grade": 8.2,
+    "maximum_grade": 23,
+    "elevation_high": 234,
+    "elevation_low": 115.4,
+    "start_latlng": [
+      51.3172145280987,
+      0.35182518884539604
+    ],
+    "end_latlng": [
+      51.3248026650399,
+      0.338901886716485
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Trottiscliffe",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 462,
+    "athlete_pr_effort": {
+      "id": 3234476796649222000,
+      "activity_id": 11602229977,
+      "activity_id_str": "11602229977",
+      "elapsed_time": 462,
+      "distance": 1441.9,
+      "start_date": "2024-06-08T08:57:40Z",
+      "start_date_local": "2024-06-08T09:57:40Z",
+      "is_kom": false
+    },
+    "starred_date": "2024-06-06T13:39:53Z"
+  },
+  {
+    "id": 1066484,
+    "resource_state": 2,
+    "name": "es Grau",
+    "activity_type": "Ride",
+    "distance": 3015.83,
+    "average_grade": 6.3,
+    "maximum_grade": 30.8,
+    "elevation_high": 465.9,
+    "elevation_low": 251.4,
+    "start_latlng": [
+      39.6308659,
+      2.5267195
+    ],
+    "end_latlng": [
+      39.6431455,
+      2.5323105
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 2,
+    "city": "Puigpunyent",
+    "state": "PM",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 949,
+    "athlete_pr_effort": {
+      "id": 3483163869749857300,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 949,
+      "distance": 3015.83,
+      "start_date": "2026-04-25T11:04:05Z",
+      "start_date_local": "2026-04-25T13:04:05Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-13T10:48:55Z"
+  },
+  {
+    "id": 1068454,
+    "resource_state": 2,
+    "name": "Birling Hill (full)",
+    "activity_type": "Ride",
+    "distance": 2548.88,
+    "average_grade": 5.9,
+    "maximum_grade": 16.3,
+    "elevation_high": 158.6,
+    "elevation_low": 7.4,
+    "start_latlng": [
+      51.323284367099404,
+      0.4127775505185127
+    ],
+    "end_latlng": [
+      51.33642392233014,
+      0.39381575770676136
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "West Malling",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 599,
+    "athlete_pr_effort": {
+      "id": 2765193247270831000,
+      "activity_id": 4368396618,
+      "activity_id_str": "4368396618",
+      "elapsed_time": 599,
+      "distance": 2548.88,
+      "start_date": "2020-11-21T09:49:16Z",
+      "start_date_local": "2020-11-21T09:49:16Z",
+      "is_kom": false
+    },
+    "starred_date": "2020-11-21T18:09:37Z"
+  },
+  {
+    "id": 1075258,
+    "resource_state": 2,
+    "name": "Row Dow",
+    "activity_type": "Ride",
+    "distance": 844.54,
+    "average_grade": 11.3,
+    "maximum_grade": 34.1,
+    "elevation_high": 203,
+    "elevation_low": 107.6,
+    "start_latlng": [
+      51.31241949275136,
+      0.20449060946702957
+    ],
+    "end_latlng": [
+      51.31722450256348,
+      0.2137967012822628
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Sevenoaks",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 301,
+    "athlete_pr_effort": {
+      "id": 3463213066922980000,
+      "activity_id": 17566616008,
+      "activity_id_str": "17566616008",
+      "elapsed_time": 301,
+      "distance": 844.54,
+      "start_date": "2026-03-01T13:16:47Z",
+      "start_date_local": "2026-03-01T13:16:47Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-05-21T11:20:40Z"
+  },
+  {
+    "id": 1117160,
+    "resource_state": 2,
+    "name": "Col de PORC",
+    "activity_type": "Ride",
+    "distance": 2055.18,
+    "average_grade": 3,
+    "maximum_grade": 9.7,
+    "elevation_high": 18.2,
+    "elevation_low": -44.8,
+    "start_latlng": [
+      51.164914,
+      0.176233
+    ],
+    "end_latlng": [
+      51.157819,
+      0.153343
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Tonbridge",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 275,
+    "athlete_pr_effort": {
+      "id": 69811025397,
+      "activity_id": 2543531142,
+      "activity_id_str": "2543531142",
+      "elapsed_time": 275,
+      "distance": 2055.18,
+      "start_date": "2019-07-18T17:49:40Z",
+      "start_date_local": "2019-07-18T18:49:40Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-01T09:01:13Z"
+  },
+  {
+    "id": 1127162,
+    "resource_state": 2,
+    "name": "Row Dow (not including Pilgrims Way!)",
+    "activity_type": "Ride",
+    "distance": 803.18,
+    "average_grade": 11.2,
+    "maximum_grade": 31.3,
+    "elevation_high": 154.6,
+    "elevation_low": 64.6,
+    "start_latlng": [
+      51.31236375309527,
+      0.20513626746833324
+    ],
+    "end_latlng": [
+      51.317109167575836,
+      0.21369636990129948
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Sevenoaks",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 284,
+    "athlete_pr_effort": {
+      "id": 3463213066922499600,
+      "activity_id": 17566616008,
+      "activity_id_str": "17566616008",
+      "elapsed_time": 284,
+      "distance": 803.18,
+      "start_date": "2026-03-01T13:16:57Z",
+      "start_date_local": "2026-03-01T13:16:57Z",
+      "is_kom": false
+    },
+    "starred_date": "2025-03-02T13:14:43Z"
+  },
+  {
+    "id": 1459722,
+    "resource_state": 2,
+    "name": "Ma 3322 Climb",
+    "activity_type": "Ride",
+    "distance": 2134.77,
+    "average_grade": 5.8,
+    "maximum_grade": 10.4,
+    "elevation_high": 150.3,
+    "elevation_low": 26.7,
+    "start_latlng": [
+      39.6524853,
+      3.188327
+    ],
+    "end_latlng": [
+      39.6411067,
+      3.2012103
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Manacor",
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 543,
+    "athlete_pr_effort": {
+      "id": 3483163868108028000,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 543,
+      "distance": 2134.77,
+      "start_date": "2026-04-25T14:56:05Z",
+      "start_date_local": "2026-04-25T16:56:05Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-13T10:48:59Z"
+  },
+  {
+    "id": 1564374,
+    "resource_state": 2,
+    "name": "Pixot Hill",
+    "activity_type": "Ride",
+    "distance": 1269.41,
+    "average_grade": 5.7,
+    "maximum_grade": 9.9,
+    "elevation_high": 104.5,
+    "elevation_low": 32.2,
+    "start_latlng": [
+      51.1660753,
+      0.4032856
+    ],
+    "end_latlng": [
+      51.1550684,
+      0.4003629
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Paddock Wood",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 229,
+    "athlete_pr_effort": {
+      "id": 3505917258849411000,
+      "activity_id": 19084710818,
+      "activity_id_str": "19084710818",
+      "elapsed_time": 229,
+      "distance": 1269.41,
+      "start_date": "2026-06-27T08:07:37Z",
+      "start_date_local": "2026-06-27T09:07:37Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-09-08T17:07:25Z"
+  },
+  {
+    "id": 1659764,
+    "resource_state": 2,
+    "name": "Oz",
+    "activity_type": "Ride",
+    "distance": 7049.39,
+    "average_grade": 7.5,
+    "maximum_grade": 22.4,
+    "elevation_high": 1307.8,
+    "elevation_low": 779.4,
+    "start_latlng": [
+      45.13685963116586,
+      6.049169730395079
+    ],
+    "end_latlng": [
+      45.13340486213565,
+      6.072704102844
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 3,
+    "city": "Oz",
+    "state": "Rhône-Alpes",
+    "country": "France",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 2200,
+    "athlete_pr_effort": {
+      "id": 3514293224728223000,
+      "activity_id": 19389320049,
+      "activity_id_str": "19389320049",
+      "elapsed_time": 2200,
+      "distance": 7049.39,
+      "start_date": "2026-07-20T13:45:21Z",
+      "start_date_local": "2026-07-20T15:45:21Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-20T10:33:09Z"
+  },
+  {
+    "id": 1892761,
+    "resource_state": 2,
+    "name": "Gweek Drive",
+    "activity_type": "Ride",
+    "distance": 2900.75,
+    "average_grade": 1.7,
+    "maximum_grade": 11,
+    "elevation_high": 7.4,
+    "elevation_low": -42.6,
+    "start_latlng": [
+      50.09330897592008,
+      -5.211109416559339
+    ],
+    "end_latlng": [
+      50.074809193611145,
+      -5.215086294338107
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Gweek",
+    "state": "Cornwall",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 370,
+    "athlete_pr_effort": {
+      "id": 3254808221657361400,
+      "activity_id": 12051830723,
+      "activity_id_str": "12051830723",
+      "elapsed_time": 370,
+      "distance": 2900.75,
+      "start_date": "2024-08-03T08:17:19Z",
+      "start_date_local": "2024-08-03T09:17:19Z",
+      "is_kom": false
+    },
+    "starred_date": "2024-08-02T16:32:45Z"
+  },
+  {
+    "id": 1940327,
+    "resource_state": 2,
+    "name": "Coll d'Honor",
+    "activity_type": "Ride",
+    "distance": 6008,
+    "average_grade": 6,
+    "maximum_grade": 13,
+    "elevation_high": 553.5,
+    "elevation_low": 214.3,
+    "start_latlng": [
+      39.69664,
+      2.699664
+    ],
+    "end_latlng": [
+      39.727216,
+      2.73137
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 3,
+    "city": "Bunyola",
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 1836,
+    "athlete_pr_effort": {
+      "id": 3085617375786758000,
+      "activity_id": 8949168288,
+      "activity_id_str": "8949168288",
+      "elapsed_time": 1836,
+      "distance": 6008,
+      "start_date": "2023-04-24T13:26:59Z",
+      "start_date_local": "2023-04-24T15:26:59Z",
+      "is_kom": false
+    },
+    "starred_date": "2025-04-30T21:58:42Z"
+  },
+  {
+    "id": 2315553,
+    "resource_state": 2,
+    "name": "coll den claret desde esporles",
+    "activity_type": "Ride",
+    "distance": 6422.92,
+    "average_grade": 4.8,
+    "maximum_grade": 21.8,
+    "elevation_high": 475.8,
+    "elevation_low": 167.6,
+    "start_latlng": [
+      39.671629182994366,
+      2.574032172560692
+    ],
+    "end_latlng": [
+      39.69123571179807,
+      2.5749676767736673
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 2,
+    "city": "Esporles",
+    "state": "PM",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 1383,
+    "athlete_pr_effort": {
+      "id": 3484238992419275000,
+      "activity_id": 18293811852,
+      "activity_id_str": "18293811852",
+      "elapsed_time": 1383,
+      "distance": 6422.92,
+      "start_date": "2026-04-28T10:09:53Z",
+      "start_date_local": "2026-04-28T12:09:53Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-28T23:29:29Z"
+  },
+  {
+    "id": 2316532,
+    "resource_state": 2,
+    "name": "The Other Groombridge Hill",
+    "activity_type": "Ride",
+    "distance": 1019.68,
+    "average_grade": 4.9,
+    "maximum_grade": 17.3,
+    "elevation_high": 11.8,
+    "elevation_low": -38.4,
+    "start_latlng": [
+      51.118384720757604,
+      0.18444595858454704
+    ],
+    "end_latlng": [
+      51.123509583994746,
+      0.1758390013128519
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Groombridge",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 193,
+    "athlete_pr_effort": {
+      "id": 2910525523096765000,
+      "activity_id": 4301810008,
+      "activity_id_str": "4301810008",
+      "elapsed_time": 193,
+      "distance": 1019.68,
+      "start_date": "2020-11-07T11:10:56Z",
+      "start_date_local": "2020-11-07T11:10:56Z",
+      "is_kom": false
+    },
+    "starred_date": "2019-06-08T12:36:26Z"
+  },
+  {
+    "id": 2405238,
+    "resource_state": 2,
+    "name": "Frittenden Bugger",
+    "activity_type": "Ride",
+    "distance": 1632.89,
+    "average_grade": 2.1,
+    "maximum_grade": 9.1,
+    "elevation_high": 85.1,
+    "elevation_low": 51.3,
+    "start_latlng": [
+      51.12302418490096,
+      0.5708167543390148
+    ],
+    "end_latlng": [
+      51.11339669616367,
+      0.5558864487693876
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Sissinghurst",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 248,
+    "athlete_pr_effort": {
+      "id": 2910579362302053400,
+      "activity_id": 3285376889,
+      "activity_id_str": "3285376889",
+      "elapsed_time": 248,
+      "distance": 1632.89,
+      "start_date": "2020-04-11T15:44:16Z",
+      "start_date_local": "2020-04-11T16:44:16Z",
+      "is_kom": false
+    },
+    "starred_date": "2023-10-08T18:32:08Z"
+  },
+  {
+    "id": 2613729,
+    "resource_state": 2,
+    "name": "Cowden climb",
+    "activity_type": "Ride",
+    "distance": 705.695,
+    "average_grade": 7.2,
+    "maximum_grade": 15.3,
+    "elevation_high": 99.4,
+    "elevation_low": 47.5,
+    "start_latlng": [
+      51.154657,
+      0.110717
+    ],
+    "end_latlng": [
+      51.160543,
+      0.114138
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Cowden",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 112,
+    "athlete_pr_effort": {
+      "id": 58931285357,
+      "activity_id": 2332924943,
+      "activity_id_str": "2332924943",
+      "elapsed_time": 112,
+      "distance": 705.695,
+      "start_date": "2019-05-01T09:22:14Z",
+      "start_date_local": "2019-05-01T10:22:14Z",
+      "is_kom": false
+    },
+    "starred_date": "2019-04-29T17:30:45Z"
+  },
+  {
+    "id": 3288023,
+    "resource_state": 2,
+    "name": "Coll de Sa Gramola (Vertiente Estallencs)",
+    "activity_type": "Ride",
+    "distance": 3503.92,
+    "average_grade": 4.9,
+    "maximum_grade": 9.1,
+    "elevation_high": 359.7,
+    "elevation_low": 193.2,
+    "start_latlng": [
+      39.62536610662937,
+      2.425457490608096
+    ],
+    "end_latlng": [
+      39.60540544241667,
+      2.409461634233594
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 2,
+    "city": "Andratx",
+    "state": "Balearic Islands",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 803,
+    "athlete_pr_effort": {
+      "id": 3483163869754083300,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 803,
+      "distance": 3503.92,
+      "start_date": "2026-04-25T09:40:25Z",
+      "start_date_local": "2026-04-25T11:40:25Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-13T10:48:49Z"
+  },
+  {
+    "id": 3386059,
+    "resource_state": 2,
+    "name": "Zennor to Eagle's Nest",
+    "activity_type": "Ride",
+    "distance": 1452.15,
+    "average_grade": 5.9,
+    "maximum_grade": 26.5,
+    "elevation_high": 191.6,
+    "elevation_low": 106.6,
+    "start_latlng": [
+      50.19057786092162,
+      -5.564740989357233
+    ],
+    "end_latlng": [
+      50.19449112005532,
+      -5.548619152978063
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Zennor",
+    "state": "Cornwall",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 296,
+    "athlete_pr_effort": {
+      "id": 3526240156398467000,
+      "activity_id": 19850908394,
+      "activity_id_str": "19850908394",
+      "elapsed_time": 296,
+      "distance": 1452.15,
+      "start_date": "2026-08-22T12:30:56Z",
+      "start_date_local": "2026-08-22T13:30:56Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-08-18T20:57:02Z"
+  },
+  {
+    "id": 3536883,
+    "resource_state": 2,
+    "name": "Titsey Hill",
+    "activity_type": "Ride",
+    "distance": 1444.28,
+    "average_grade": 8.4,
+    "maximum_grade": 15.7,
+    "elevation_high": 263.1,
+    "elevation_low": 141.9,
+    "start_latlng": [
+      51.27618,
+      0.018541
+    ],
+    "end_latlng": [
+      51.281349,
+      0.003984
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Titsey",
+    "state": "Surrey",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 396,
+    "athlete_pr_effort": {
+      "id": 2892044595519928000,
+      "activity_id": 6219139780,
+      "activity_id_str": "6219139780",
+      "elapsed_time": 396,
+      "distance": 1444.28,
+      "start_date": "2021-11-06T10:18:41Z",
+      "start_date_local": "2021-11-06T10:18:41Z",
+      "is_kom": false
+    },
+    "starred_date": "2020-07-23T05:05:10Z"
+  },
+  {
+    "id": 3591513,
+    "resource_state": 2,
+    "name": "Laddingford Full Course",
+    "activity_type": "Ride",
+    "distance": 4851.32,
+    "average_grade": 0.1,
+    "maximum_grade": 3.7,
+    "elevation_high": 18.8,
+    "elevation_low": 9,
+    "start_latlng": [
+      51.212630001828074,
+      0.4202188365161419
+    ],
+    "end_latlng": [
+      51.178865851834416,
+      0.44587818905711174
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Laddingford",
+    "state": "Kent",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 475,
+    "athlete_pr_effort": {
+      "id": 3259854762470265000,
+      "activity_id": 12169749388,
+      "activity_id_str": "12169749388",
+      "elapsed_time": 475,
+      "distance": 4851.32,
+      "start_date": "2024-08-17T08:48:41Z",
+      "start_date_local": "2024-08-17T09:48:41Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-02T13:12:13Z"
+  },
+  {
+    "id": 3645572,
+    "resource_state": 2,
+    "name": "Ride out of Porthleven",
+    "activity_type": "Ride",
+    "distance": 2581.79,
+    "average_grade": 2.4,
+    "maximum_grade": 10.9,
+    "elevation_high": 120.6,
+    "elevation_low": 57.6,
+    "start_latlng": [
+      50.08940678089857,
+      -5.327483005821705
+    ],
+    "end_latlng": [
+      50.103531796485186,
+      -5.355187961831689
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Porthleven",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 432,
+    "athlete_pr_effort": {
+      "id": 3254808221654048000,
+      "activity_id": 12051830723,
+      "activity_id_str": "12051830723",
+      "elapsed_time": 432,
+      "distance": 2581.79,
+      "start_date": "2024-08-03T12:48:14Z",
+      "start_date_local": "2024-08-03T13:48:14Z",
+      "is_kom": false
+    },
+    "starred_date": "2024-08-03T18:37:45Z"
+  },
+  {
+    "id": 4216518,
+    "resource_state": 2,
+    "name": "Coll d'Honor (Oeste)",
+    "activity_type": "Ride",
+    "distance": 2716.1,
+    "average_grade": 4.7,
+    "maximum_grade": 13.9,
+    "elevation_high": 497.2,
+    "elevation_low": 369.6,
+    "start_latlng": [
+      39.733164,
+      2.746821
+    ],
+    "end_latlng": [
+      39.726944,
+      2.731675
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Bunyola",
+    "state": "PM",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 572,
+    "athlete_pr_effort": {
+      "id": 3352692569367275500,
+      "activity_id": 14334072640,
+      "activity_id_str": "14334072640",
+      "elapsed_time": 572,
+      "distance": 2716.1,
+      "start_date": "2025-04-30T11:33:28Z",
+      "start_date_local": "2025-04-30T13:33:28Z",
+      "is_kom": false
+    },
+    "starred_date": "2025-04-30T20:37:57Z"
+  },
+  {
+    "id": 4543755,
+    "resource_state": 2,
+    "name": "Box Hill 2.2k",
+    "activity_type": "Ride",
+    "distance": 2296.62,
+    "average_grade": 5.2,
+    "maximum_grade": 7.6,
+    "elevation_high": 175.4,
+    "elevation_low": 56.3,
+    "start_latlng": [
+      51.257867,
+      -0.322659
+    ],
+    "end_latlng": [
+      51.250376,
+      -0.311933
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Mole Valley District, Surrey, UK",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 438,
+    "athlete_pr_effort": {
+      "id": 2712660170098266600,
+      "activity_id": 3687795077,
+      "activity_id_str": "3687795077",
+      "elapsed_time": 438,
+      "distance": 2296.62,
+      "start_date": "2020-06-29T10:03:27Z",
+      "start_date_local": "2020-06-29T11:03:27Z",
+      "is_kom": false
+    },
+    "starred_date": "2020-06-28T17:40:34Z"
+  },
+  {
+    "id": 4608091,
+    "resource_state": 2,
+    "name": "Hamptons Road Climb",
+    "activity_type": "Ride",
+    "distance": 2287.8,
+    "average_grade": 1.5,
+    "maximum_grade": 5,
+    "elevation_high": 68.5,
+    "elevation_low": 34.7,
+    "start_latlng": [
+      51.238309,
+      0.325982
+    ],
+    "end_latlng": [
+      51.247312,
+      0.299768
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Tonbridge and Malling District, Kent, UK",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 274,
+    "athlete_pr_effort": {
+      "id": 2864123442657435000,
+      "activity_id": 5828089819,
+      "activity_id_str": "5828089819",
+      "elapsed_time": 274,
+      "distance": 2287.8,
+      "start_date": "2021-08-21T10:57:22Z",
+      "start_date_local": "2021-08-21T11:57:22Z",
+      "is_kom": false
+    },
+    "starred_date": "2019-12-08T14:37:01Z"
+  },
+  {
+    "id": 4940876,
+    "resource_state": 2,
+    "name": "Underlyn Lane to Maidstone Road",
+    "activity_type": "Ride",
+    "distance": 2096.6,
+    "average_grade": 0,
+    "maximum_grade": 2.5,
+    "elevation_high": 17.9,
+    "elevation_low": 14.6,
+    "start_latlng": [
+      51.183921,
+      0.486903
+    ],
+    "end_latlng": [
+      51.191977,
+      0.513458
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Marden",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 166,
+    "athlete_pr_effort": {
+      "id": 3507112552887910400,
+      "activity_id": 19127835711,
+      "activity_id_str": "19127835711",
+      "elapsed_time": 166,
+      "distance": 2096.6,
+      "start_date": "2026-06-30T17:23:31Z",
+      "start_date_local": "2026-06-30T18:23:31Z",
+      "is_kom": false
+    },
+    "starred_date": "2022-01-22T22:46:57Z"
+  },
+  {
+    "id": 5159422,
+    "resource_state": 2,
+    "name": "Glandon-Croix de Fer Part1 hard KOM",
+    "activity_type": "Ride",
+    "distance": 7045.8,
+    "average_grade": 7,
+    "maximum_grade": 35.7,
+    "elevation_high": 1286.3,
+    "elevation_low": 783.2,
+    "start_latlng": [
+      45.149521,
+      6.048351
+    ],
+    "end_latlng": [
+      45.20841,
+      6.045253
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 3,
+    "city": "Vaujany",
+    "state": "RA",
+    "country": "France",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 2255,
+    "athlete_pr_effort": {
+      "id": 3513939636058281000,
+      "activity_id": 19378104521,
+      "activity_id_str": "19378104521",
+      "elapsed_time": 2255,
+      "distance": 7045.8,
+      "start_date": "2026-07-19T06:04:54Z",
+      "start_date_local": "2026-07-19T08:04:54Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-01T09:50:44Z"
+  },
+  {
+    "id": 5170240,
+    "resource_state": 2,
+    "name": "Col du Tourmalet (par Luz, versant ouest)",
+    "activity_type": "Ride",
+    "distance": 18827.5,
+    "average_grade": 7.6,
+    "maximum_grade": 30.8,
+    "elevation_high": 2113.5,
+    "elevation_low": 718.2,
+    "start_latlng": [
+      42.873193,
+      -0.003238
+    ],
+    "end_latlng": [
+      42.908248,
+      0.145209
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 5,
+    "city": "Luz Saint Sauveur",
+    "state": "Midi-Pyrénées",
+    "country": "France",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 5711,
+    "athlete_pr_effort": {
+      "id": 3500545277147191300,
+      "activity_id": 18892279068,
+      "activity_id_str": "18892279068",
+      "elapsed_time": 5711,
+      "distance": 18827.5,
+      "start_date": "2026-06-12T10:17:17Z",
+      "start_date_local": "2026-06-12T12:17:17Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-06-09T21:11:04Z"
+  },
+  {
+    "id": 5276929,
+    "resource_state": 2,
+    "name": "Lumpy Bumpy",
+    "activity_type": "Ride",
+    "distance": 2127,
+    "average_grade": 0.5,
+    "maximum_grade": 6.2,
+    "elevation_high": 85.6,
+    "elevation_low": 59.6,
+    "start_latlng": [
+      51.243837,
+      0.278604
+    ],
+    "end_latlng": [
+      51.242526,
+      0.249702
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Tonbridge and Malling District, Kent, UK",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 221,
+    "athlete_pr_effort": {
+      "id": 3505917258844493000,
+      "activity_id": 19084710818,
+      "activity_id_str": "19084710818",
+      "elapsed_time": 221,
+      "distance": 2127,
+      "start_date": "2026-06-27T11:08:00Z",
+      "start_date_local": "2026-06-27T12:08:00Z",
+      "is_kom": false
+    },
+    "starred_date": "2019-12-26T17:08:27Z"
+  },
+  {
+    "id": 5588544,
+    "resource_state": 2,
+    "name": "Fordcombe Climb",
+    "activity_type": "Ride",
+    "distance": 2303.8,
+    "average_grade": 4.2,
+    "maximum_grade": 12.2,
+    "elevation_high": 117,
+    "elevation_low": 20.4,
+    "start_latlng": [
+      51.149338,
+      0.174584
+    ],
+    "end_latlng": [
+      51.134405,
+      0.191778
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Tonbridge, Kent, UK",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 382,
+    "athlete_pr_effort": {
+      "id": 3495767688375198700,
+      "activity_id": 18714048288,
+      "activity_id_str": "18714048288",
+      "elapsed_time": 382,
+      "distance": 2303.8,
+      "start_date": "2026-05-30T08:37:41Z",
+      "start_date_local": "2026-05-30T09:37:41Z",
+      "is_kom": false
+    },
+    "starred_date": "2025-03-05T18:54:24Z"
+  },
+  {
+    "id": 5602909,
+    "resource_state": 2,
+    "name": "Sheephurst Lane",
+    "activity_type": "Ride",
+    "distance": 3180.4,
+    "average_grade": 0.1,
+    "maximum_grade": 3.6,
+    "elevation_high": 25.7,
+    "elevation_low": 18,
+    "start_latlng": [
+      51.174484,
+      0.450713
+    ],
+    "end_latlng": [
+      51.1619,
+      0.483653
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Tonbridge, Kent, UK",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 288,
+    "athlete_pr_effort": {
+      "id": 3361725480352462000,
+      "activity_id": 14591185346,
+      "activity_id_str": "14591185346",
+      "elapsed_time": 288,
+      "distance": 3180.4,
+      "start_date": "2025-05-25T13:51:59Z",
+      "start_date_local": "2025-05-25T14:51:59Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-02T13:36:19Z"
+  },
+  {
+    "id": 5983041,
+    "resource_state": 2,
+    "name": "Coll d’en Bleda (Vertiente Soller)",
+    "activity_type": "Ride",
+    "distance": 4160.95,
+    "average_grade": 4.8,
+    "maximum_grade": 11.5,
+    "elevation_high": 223.4,
+    "elevation_low": 22.6,
+    "start_latlng": [
+      39.773547,
+      2.705291
+    ],
+    "end_latlng": [
+      39.773371,
+      2.676599
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 2,
+    "city": "Sóller",
+    "state": "PM",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 968,
+    "athlete_pr_effort": {
+      "id": 3483163869757847600,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 968,
+      "distance": 4160.95,
+      "start_date": "2026-04-25T07:34:50Z",
+      "start_date_local": "2026-04-25T09:34:50Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-13T10:48:39Z"
+  },
+  {
+    "id": 5983061,
+    "resource_state": 2,
+    "name": "Coll de Sa Pedrissa",
+    "activity_type": "Ride",
+    "distance": 6744.63,
+    "average_grade": 4.5,
+    "maximum_grade": 10.8,
+    "elevation_high": 425.1,
+    "elevation_low": 133.1,
+    "start_latlng": [
+      39.747331,
+      2.643404
+    ],
+    "end_latlng": [
+      39.723703,
+      2.60597
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 2,
+    "city": "Deyá",
+    "state": "PM",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 1458,
+    "athlete_pr_effort": {
+      "id": 3483163869754402000,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 1458,
+      "distance": 6744.63,
+      "start_date": "2026-04-25T08:02:05Z",
+      "start_date_local": "2026-04-25T10:02:05Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-13T10:48:43Z"
+  },
+  {
+    "id": 6630489,
+    "resource_state": 2,
+    "name": "Frittenden Road",
+    "activity_type": "Ride",
+    "distance": 3444.6,
+    "average_grade": -0.2,
+    "maximum_grade": 0,
+    "elevation_high": 20,
+    "elevation_low": 13.2,
+    "start_latlng": [
+      51.156285,
+      0.552506
+    ],
+    "end_latlng": [
+      51.148618,
+      0.594925
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Staplehurst",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 354,
+    "athlete_pr_effort": {
+      "id": 2910579393438472700,
+      "activity_id": 5421830707,
+      "activity_id_str": "5421830707",
+      "elapsed_time": 354,
+      "distance": 3444.6,
+      "start_date": "2021-06-06T08:48:48Z",
+      "start_date_local": "2021-06-06T09:48:48Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-09-08T17:03:23Z"
+  },
+  {
+    "id": 6691062,
+    "resource_state": 2,
+    "name": "Toy's Hill",
+    "activity_type": "Ride",
+    "distance": 2575.37,
+    "average_grade": 8.5,
+    "maximum_grade": 16.6,
+    "elevation_high": 242.4,
+    "elevation_low": 65.8,
+    "start_latlng": [
+      51.22484053379342,
+      0.10586609281734219
+    ],
+    "end_latlng": [
+      51.246867531091176,
+      0.1053277959674114
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 2,
+    "city": "Sevenoaks",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 590,
+    "athlete_pr_effort": {
+      "id": 2721096992015100000,
+      "activity_id": 3802285370,
+      "activity_id_str": "3802285370",
+      "elapsed_time": 590,
+      "distance": 2575.37,
+      "start_date": "2020-07-22T18:00:53Z",
+      "start_date_local": "2020-07-22T19:00:53Z",
+      "is_kom": false
+    },
+    "starred_date": "2022-01-04T23:51:18Z"
+  },
+  {
+    "id": 6691321,
+    "resource_state": 2,
+    "name": "Leith Hill",
+    "activity_type": "Ride",
+    "distance": 2011.6,
+    "average_grade": 8.3,
+    "maximum_grade": 16.5,
+    "elevation_high": 250.2,
+    "elevation_low": 111.1,
+    "start_latlng": [
+      51.160771,
+      -0.380887
+    ],
+    "end_latlng": [
+      51.176558,
+      -0.383647
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Dorking, UK",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 502,
+    "athlete_pr_effort": {
+      "id": 2732570009558542300,
+      "activity_id": 3953668686,
+      "activity_id_str": "3953668686",
+      "elapsed_time": 502,
+      "distance": 2011.6,
+      "start_date": "2020-08-23T09:37:43Z",
+      "start_date_local": "2020-08-23T10:37:43Z",
+      "is_kom": false
+    },
+    "starred_date": "2022-01-05T00:02:13Z"
+  },
+  {
+    "id": 6691343,
+    "resource_state": 2,
+    "name": "The Wall",
+    "activity_type": "Ride",
+    "distance": 1499.23,
+    "average_grade": 9.8,
+    "maximum_grade": 14.5,
+    "elevation_high": 203.8,
+    "elevation_low": 71.2,
+    "start_latlng": [
+      51.073069,
+      0.077097
+    ],
+    "end_latlng": [
+      51.064183,
+      0.092791
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Hartfield, East Sussex, UK",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 417,
+    "athlete_pr_effort": {
+      "id": 69811032241,
+      "activity_id": 2551692484,
+      "activity_id_str": "2551692484",
+      "elapsed_time": 417,
+      "distance": 1499.23,
+      "start_date": "2019-07-21T15:48:29Z",
+      "start_date_local": "2019-07-21T16:48:29Z",
+      "is_kom": false
+    },
+    "starred_date": "2019-07-20T11:03:17Z"
+  },
+  {
+    "id": 6807785,
+    "resource_state": 2,
+    "name": "Black Hill Bottom to Top",
+    "activity_type": "Ride",
+    "distance": 3565,
+    "average_grade": 4.5,
+    "maximum_grade": 15.4,
+    "elevation_high": 201.4,
+    "elevation_low": 41.6,
+    "start_latlng": [
+      51.081475,
+      0.13877
+    ],
+    "end_latlng": [
+      51.059254,
+      0.105817
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Friar'S Gate",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 599,
+    "athlete_pr_effort": {
+      "id": 3480584734300917000,
+      "activity_id": 18158841420,
+      "activity_id_str": "18158841420",
+      "elapsed_time": 599,
+      "distance": 3565,
+      "start_date": "2026-04-18T09:08:20Z",
+      "start_date_local": "2026-04-18T10:08:20Z",
+      "is_kom": false
+    },
+    "starred_date": "2025-03-05T18:54:20Z"
+  },
+  {
+    "id": 7151016,
+    "resource_state": 2,
+    "name": "Full Chuck Hatch",
+    "activity_type": "Ride",
+    "distance": 3219.2,
+    "average_grade": 4.3,
+    "maximum_grade": 13.9,
+    "elevation_high": 213.2,
+    "elevation_low": 72.2,
+    "start_latlng": [
+      51.089426,
+      0.109161
+    ],
+    "end_latlng": [
+      51.063899,
+      0.093314
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Hartfield, East Sussex, UK",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 567,
+    "athlete_pr_effort": {
+      "id": 2719891065052298000,
+      "activity_id": 3784815441,
+      "activity_id_str": "3784815441",
+      "elapsed_time": 567,
+      "distance": 3219.2,
+      "start_date": "2020-07-19T09:38:48Z",
+      "start_date_local": "2020-07-19T10:38:48Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-03-03T08:55:20Z"
+  },
+  {
+    "id": 7173252,
+    "resource_state": 2,
+    "name": "Brasted - 1931 Hill Championship (EW Hussey 1:54)",
+    "activity_type": "Ride",
+    "distance": 600,
+    "average_grade": 12.3,
+    "maximum_grade": 28.6,
+    "elevation_high": 190.6,
+    "elevation_low": 116.6,
+    "start_latlng": [
+      51.292004,
+      0.104099
+    ],
+    "end_latlng": [
+      51.296025,
+      0.098972
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Westerham TN16, UK",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 213,
+    "athlete_pr_effort": {
+      "id": 59643312476,
+      "activity_id": 2362157199,
+      "activity_id_str": "2362157199",
+      "elapsed_time": 213,
+      "distance": 600,
+      "start_date": "2019-05-12T11:34:12Z",
+      "start_date_local": "2019-05-12T12:34:12Z",
+      "is_kom": false
+    },
+    "starred_date": "2022-08-26T21:26:20Z"
+  },
+  {
+    "id": 7192428,
+    "resource_state": 2,
+    "name": "Three Chimneys to Biddenden",
+    "activity_type": "Ride",
+    "distance": 2480.7,
+    "average_grade": 0,
+    "maximum_grade": 4.2,
+    "elevation_high": 60.2,
+    "elevation_low": 46.3,
+    "start_latlng": [
+      51.118054,
+      0.609668
+    ],
+    "end_latlng": [
+      51.114997,
+      0.643082
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Biddenden",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 203,
+    "athlete_pr_effort": {
+      "id": 3507796286608324600,
+      "activity_id": 19152327750,
+      "activity_id_str": "19152327750",
+      "elapsed_time": 203,
+      "distance": 2480.7,
+      "start_date": "2026-07-02T14:55:35Z",
+      "start_date_local": "2026-07-02T15:55:35Z",
+      "is_kom": true
+    },
+    "starred_date": "2026-07-02T13:33:09Z"
+  },
+  {
+    "id": 7344167,
+    "resource_state": 2,
+    "name": "GALIBIER (SV)",
+    "activity_type": "Ride",
+    "distance": 13435.3,
+    "average_grade": 7.6,
+    "maximum_grade": 20.2,
+    "elevation_high": 2637.8,
+    "elevation_low": 1614.6,
+    "start_latlng": [
+      45.129743,
+      6.4183
+    ],
+    "end_latlng": [
+      45.064336,
+      6.408481
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 5,
+    "city": "Valloire",
+    "state": "RA",
+    "country": "France",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 4949,
+    "athlete_pr_effort": {
+      "id": 3110958176602925000,
+      "activity_id": 9380596956,
+      "activity_id_str": "9380596956",
+      "elapsed_time": 4949,
+      "distance": 13435.3,
+      "start_date": "2023-07-03T09:46:08Z",
+      "start_date_local": "2023-07-03T11:46:08Z",
+      "is_kom": false
+    },
+    "starred_date": "2023-07-03T17:27:57Z"
+  },
+  {
+    "id": 7497232,
+    "resource_state": 2,
+    "name": "Military Road Long",
+    "activity_type": "Ride",
+    "distance": 7475.8,
+    "average_grade": 0,
+    "maximum_grade": 5.5,
+    "elevation_high": 8,
+    "elevation_low": 0.1,
+    "start_latlng": [
+      50.968597,
+      0.748312
+    ],
+    "end_latlng": [
+      51.028495,
+      0.790323
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Rye TN31, UK",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 590,
+    "athlete_pr_effort": {
+      "id": 3471530759188031000,
+      "activity_id": 17840919311,
+      "activity_id_str": "17840919311",
+      "elapsed_time": 590,
+      "distance": 7475.8,
+      "start_date": "2026-03-24T12:42:20Z",
+      "start_date_local": "2026-03-24T12:42:20Z",
+      "is_kom": false
+    },
+    "starred_date": "2023-07-22T13:24:01Z"
+  },
+  {
+    "id": 7508462,
+    "resource_state": 2,
+    "name": "Coll De Sa Creueta",
+    "activity_type": "Ride",
+    "distance": 3267.98,
+    "average_grade": 6.5,
+    "maximum_grade": 10.4,
+    "elevation_high": 205.7,
+    "elevation_low": 11.3,
+    "start_latlng": [
+      39.912575,
+      3.099904
+    ],
+    "end_latlng": [
+      39.92868,
+      3.110301
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 2,
+    "city": "Pollença",
+    "state": "PM",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 745,
+    "athlete_pr_effort": {
+      "id": 3084875963696577500,
+      "activity_id": 8937176577,
+      "activity_id_str": "8937176577",
+      "elapsed_time": 745,
+      "distance": 3267.98,
+      "start_date": "2023-04-22T12:03:17Z",
+      "start_date_local": "2023-04-22T14:03:17Z",
+      "is_kom": false
+    },
+    "starred_date": "2023-04-22T21:17:45Z"
+  },
+  {
+    "id": 7670803,
+    "resource_state": 2,
+    "name": "Military Road: left right left right left right...",
+    "activity_type": "Ride",
+    "distance": 8358.6,
+    "average_grade": 0,
+    "maximum_grade": 4.4,
+    "elevation_high": -27.6,
+    "elevation_low": -31.8,
+    "start_latlng": [
+      51.027347,
+      0.788539
+    ],
+    "end_latlng": [
+      50.960688,
+      0.73995
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Ashford, Kent, UK",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 877,
+    "athlete_pr_effort": {
+      "id": 3257660673753061400,
+      "activity_id": 12118347537,
+      "activity_id_str": "12118347537",
+      "elapsed_time": 877,
+      "distance": 8358.6,
+      "start_date": "2024-08-11T08:54:24Z",
+      "start_date_local": "2024-08-11T09:54:24Z",
+      "is_kom": false
+    },
+    "starred_date": "2023-07-22T09:52:35Z"
+  },
+  {
+    "id": 7963933,
+    "resource_state": 2,
+    "name": "THE OFFICIAL SEAN YATES HILL TEST  ",
+    "activity_type": "Ride",
+    "distance": 2115.8,
+    "average_grade": 3.6,
+    "maximum_grade": 19.8,
+    "elevation_high": 306.2,
+    "elevation_low": 231,
+    "start_latlng": [
+      51.080835,
+      0.071216
+    ],
+    "end_latlng": [
+      51.072288,
+      0.045217
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Hartfield, East Sussex, UK",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 290,
+    "athlete_pr_effort": {
+      "id": 3100077841127900000,
+      "activity_id": 9194594755,
+      "activity_id_str": "9194594755",
+      "elapsed_time": 290,
+      "distance": 2115.8,
+      "start_date": "2023-06-03T08:52:50Z",
+      "start_date_local": "2023-06-03T09:52:50Z",
+      "is_kom": false
+    },
+    "starred_date": "2019-03-19T10:24:12Z"
+  },
+  {
+    "id": 8255811,
+    "resource_state": 2,
+    "name": "Coldharbour Lane",
+    "activity_type": "Ride",
+    "distance": 3110.57,
+    "average_grade": 7.1,
+    "maximum_grade": 14.7,
+    "elevation_high": 229.6,
+    "elevation_low": 89.4,
+    "start_latlng": [
+      51.219347,
+      -0.341038
+    ],
+    "end_latlng": [
+      51.193478,
+      -0.3461
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Dorking",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 721,
+    "athlete_pr_effort": {
+      "id": 2965934770418648600,
+      "activity_id": 7220545662,
+      "activity_id_str": "7220545662",
+      "elapsed_time": 721,
+      "distance": 3110.57,
+      "start_date": "2022-05-29T09:04:44Z",
+      "start_date_local": "2022-05-29T10:04:44Z",
+      "is_kom": false
+    },
+    "starred_date": "2022-05-29T10:12:29Z"
+  },
+  {
+    "id": 8976793,
+    "resource_state": 2,
+    "name": "Greatwork mine ",
+    "activity_type": "Ride",
+    "distance": 981.2,
+    "average_grade": 4.7,
+    "maximum_grade": 12.2,
+    "elevation_high": 103.2,
+    "elevation_low": 56.6,
+    "start_latlng": [
+      50.132164,
+      -5.353124
+    ],
+    "end_latlng": [
+      50.127605,
+      -5.364878
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Godolphin Cross",
+    "state": null,
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 165,
+    "athlete_pr_effort": {
+      "id": 3516769707212027000,
+      "activity_id": 19483151404,
+      "activity_id_str": "19483151404",
+      "elapsed_time": 165,
+      "distance": 981.2,
+      "start_date": "2026-07-27T09:29:24Z",
+      "start_date_local": "2026-07-27T10:29:24Z",
+      "is_kom": false
+    },
+    "starred_date": "2024-08-02T16:04:06Z"
+  },
+  {
+    "id": 9065591,
+    "resource_state": 2,
+    "name": "Tinker pot hill",
+    "activity_type": "Ride",
+    "distance": 379.8,
+    "average_grade": 12,
+    "maximum_grade": 19.5,
+    "elevation_high": 209.1,
+    "elevation_low": 163.7,
+    "start_latlng": [
+      51.323751,
+      0.254766
+    ],
+    "end_latlng": [
+      51.325631,
+      0.25915
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "West Kingsdown",
+    "state": null,
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 137,
+    "athlete_pr_effort": {
+      "id": 3214183845430257700,
+      "activity_id": 11170742724,
+      "activity_id_str": "11170742724",
+      "elapsed_time": 137,
+      "distance": 379.8,
+      "start_date": "2024-04-13T09:50:35Z",
+      "start_date_local": "2024-04-13T10:50:35Z",
+      "is_kom": false
+    },
+    "starred_date": "2025-03-05T18:55:21Z"
+  },
+  {
+    "id": 9153560,
+    "resource_state": 2,
+    "name": "WWW 167 Lluc turn to junction to of hill",
+    "activity_type": "Ride",
+    "distance": 3741.1,
+    "average_grade": 4.8,
+    "maximum_grade": 49.6,
+    "elevation_high": 690.7,
+    "elevation_low": 505.6,
+    "start_latlng": [
+      39.820479,
+      2.892278
+    ],
+    "end_latlng": [
+      39.821729,
+      2.869927
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 2,
+    "city": "Escorca",
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 865,
+    "athlete_pr_effort": {
+      "id": 3483163869757296600,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 865,
+      "distance": 3741.1,
+      "start_date": "2026-04-25T06:18:17Z",
+      "start_date_local": "2026-04-25T08:18:17Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-13T10:48:35Z"
+  },
+  {
+    "id": 10031078,
+    "resource_state": 2,
+    "name": "black rock climb",
+    "activity_type": "Ride",
+    "distance": 3049.2,
+    "average_grade": 3.6,
+    "maximum_grade": 14.4,
+    "elevation_high": 205.4,
+    "elevation_low": 95.8,
+    "start_latlng": [
+      50.174137,
+      -5.309624
+    ],
+    "end_latlng": [
+      50.170224,
+      -5.275278
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Praze-an-Beeble",
+    "state": null,
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "starred_date": "2026-07-25T20:13:13Z"
+  },
+  {
+    "id": 11460107,
+    "resource_state": 2,
+    "name": "Court Lane Sprint",
+    "activity_type": "Ride",
+    "distance": 1832.6,
+    "average_grade": -0.3,
+    "maximum_grade": 3.2,
+    "elevation_high": 35.4,
+    "elevation_low": 25.6,
+    "start_latlng": [
+      51.224344,
+      0.339922
+    ],
+    "end_latlng": [
+      51.219155,
+      0.364258
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Hadlow",
+    "state": null,
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 151,
+    "athlete_pr_effort": {
+      "id": 3508505649154562000,
+      "activity_id": 19177919979,
+      "activity_id_str": "19177919979",
+      "elapsed_time": 151,
+      "distance": 1832.6,
+      "start_date": "2026-07-04T08:08:23Z",
+      "start_date_local": "2026-07-04T09:08:23Z",
+      "is_kom": true
+    },
+    "starred_date": "2026-09-08T12:59:11Z"
+  },
+  {
+    "id": 11606491,
+    "resource_state": 2,
+    "name": "Croix-de-Fer depuis Belleville",
+    "activity_type": "Ride",
+    "distance": 14600.7,
+    "average_grade": 5.6,
+    "maximum_grade": 44.3,
+    "elevation_high": 2064.7,
+    "elevation_low": 1242.2,
+    "start_latlng": [
+      45.19682,
+      6.301198
+    ],
+    "end_latlng": [
+      45.227516,
+      6.203552
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 5,
+    "city": "Saint-Jean-d'Arves",
+    "state": "Rhône-Alpes",
+    "country": "France",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 6293,
+    "athlete_pr_effort": {
+      "id": 3112030815088776000,
+      "activity_id": 9399418823,
+      "activity_id_str": "9399418823",
+      "elapsed_time": 6293,
+      "distance": 14600.7,
+      "start_date": "2023-07-06T08:51:48Z",
+      "start_date_local": "2023-07-06T10:51:48Z",
+      "is_kom": false
+    },
+    "starred_date": "2023-07-05T21:03:10Z"
+  },
+  {
+    "id": 11649005,
+    "resource_state": 2,
+    "name": "Climb to Trannack",
+    "activity_type": "Ride",
+    "distance": 1263.2,
+    "average_grade": 7.5,
+    "maximum_grade": 18.1,
+    "elevation_high": 126,
+    "elevation_low": 31.3,
+    "start_latlng": [
+      50.116678,
+      -5.275909
+    ],
+    "end_latlng": [
+      50.126507,
+      -5.273327
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Lower Town",
+    "state": null,
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 312,
+    "athlete_pr_effort": {
+      "id": 3253272028098719000,
+      "activity_id": 12016216465,
+      "activity_id_str": "12016216465",
+      "elapsed_time": 312,
+      "distance": 1263.2,
+      "start_date": "2024-07-30T07:15:08Z",
+      "start_date_local": "2024-07-30T08:15:08Z",
+      "is_kom": false
+    },
+    "starred_date": "2020-07-28T06:59:09Z"
+  },
+  {
+    "id": 12089486,
+    "resource_state": 2,
+    "name": "Zwischenanstieg Coll de Femenia->Luc",
+    "activity_type": "Ride",
+    "distance": 1157.9,
+    "average_grade": 4.6,
+    "maximum_grade": 9.5,
+    "elevation_high": 540.4,
+    "elevation_low": 487.2,
+    "start_latlng": [
+      39.841469,
+      2.896124
+    ],
+    "end_latlng": [
+      39.831534,
+      2.89558
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Escorca",
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 233,
+    "athlete_pr_effort": {
+      "id": 3483163869755524000,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 233,
+      "distance": 1157.9,
+      "start_date": "2026-04-25T06:10:49Z",
+      "start_date_local": "2026-04-25T08:10:49Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-13T10:48:33Z"
+  },
+  {
+    "id": 12157376,
+    "resource_state": 2,
+    "name": "Lagos de Covadonga",
+    "activity_type": "Ride",
+    "distance": 10855.7,
+    "average_grade": 9.1,
+    "maximum_grade": 15,
+    "elevation_high": 1102.8,
+    "elevation_low": 225.9,
+    "start_latlng": [
+      43.307524,
+      -5.051252
+    ],
+    "end_latlng": [
+      43.274527,
+      -4.995238
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 5,
+    "city": "Cangas de Onís",
+    "state": "Principado de Asturias",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 3514,
+    "athlete_pr_effort": {
+      "id": 3497635236368994000,
+      "activity_id": 18785048646,
+      "activity_id_str": "18785048646",
+      "elapsed_time": 3514,
+      "distance": 10855.7,
+      "start_date": "2026-06-04T12:05:24Z",
+      "start_date_local": "2026-06-04T14:05:24Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-06-04T17:47:37Z"
+  },
+  {
+    "id": 12273299,
+    "resource_state": 2,
+    "name": "Sheephurst Lane to Green Lane",
+    "activity_type": "Ride",
+    "distance": 1522,
+    "average_grade": -0.3,
+    "maximum_grade": 2.1,
+    "elevation_high": 18.8,
+    "elevation_low": 14.1,
+    "start_latlng": [
+      51.174738,
+      0.451175
+    ],
+    "end_latlng": [
+      51.18743,
+      0.455216
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Tonbridge",
+    "state": null,
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 125,
+    "athlete_pr_effort": {
+      "id": 3530561727071098400,
+      "activity_id": 20018693042,
+      "activity_id_str": "20018693042",
+      "elapsed_time": 125,
+      "distance": 1522,
+      "start_date": "2026-09-03T09:28:32Z",
+      "start_date_local": "2026-09-03T10:28:32Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-05-21T19:00:11Z"
+  },
+  {
+    "id": 12776153,
+    "resource_state": 2,
+    "name": "Col de Sarenne complet ",
+    "activity_type": "Ride",
+    "distance": 12589.1,
+    "average_grade": 7.1,
+    "maximum_grade": 24.5,
+    "elevation_high": 1983.6,
+    "elevation_low": 1091,
+    "start_latlng": [
+      45.04764,
+      6.141032
+    ],
+    "end_latlng": [
+      45.089485,
+      6.149222
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 5,
+    "city": "Mizoën",
+    "state": "Auvergne-Rhône-Alpes",
+    "country": "France",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 4562,
+    "athlete_pr_effort": {
+      "id": 3513939636050002000,
+      "activity_id": 19378104521,
+      "activity_id_str": "19378104521",
+      "elapsed_time": 4562,
+      "distance": 12589.1,
+      "start_date": "2026-07-19T13:16:23Z",
+      "start_date_local": "2026-07-19T15:16:23Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-01T10:18:57Z"
+  },
+  {
+    "id": 14032406,
+    "resource_state": 2,
+    "name": "Volcano Circuit",
+    "activity_type": "VirtualRide",
+    "distance": 4085.8,
+    "average_grade": 0,
+    "maximum_grade": 5.9,
+    "elevation_high": 14.8,
+    "elevation_low": 2.2,
+    "start_latlng": [
+      -11.642632,
+      166.940273
+    ],
+    "end_latlng": [
+      -11.642613,
+      166.940302
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": null,
+    "state": "Temotu Province",
+    "country": "Solomon Islands",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 348,
+    "athlete_pr_effort": {
+      "id": 3003972273177317000,
+      "activity_id": 7789152207,
+      "activity_id_str": "7789152207",
+      "elapsed_time": 348,
+      "distance": 4085.8,
+      "start_date": "2022-09-11T08:41:31Z",
+      "start_date_local": "2022-09-11T09:41:31Z",
+      "is_kom": false
+    },
+    "starred_date": "2019-12-03T22:23:43Z"
+  },
+  {
+    "id": 14659695,
+    "resource_state": 2,
+    "name": "M167 - Coll Claret",
+    "activity_type": "Ride",
+    "distance": 2817.8,
+    "average_grade": 4.5,
+    "maximum_grade": 12.1,
+    "elevation_high": 487.6,
+    "elevation_low": 359.6,
+    "start_latlng": [
+      39.703777,
+      2.594433
+    ],
+    "end_latlng": [
+      39.69128,
+      2.574907
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Valldemossa",
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 571,
+    "athlete_pr_effort": {
+      "id": 3483163869754832000,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 571,
+      "distance": 2817.8,
+      "start_date": "2026-04-25T08:30:35Z",
+      "start_date_local": "2026-04-25T10:30:35Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-13T10:48:45Z"
+  },
+  {
+    "id": 15320486,
+    "resource_state": 2,
+    "name": "Pujada Galilea real",
+    "activity_type": "Ride",
+    "distance": 3614.5,
+    "average_grade": 5.6,
+    "maximum_grade": 56.3,
+    "elevation_high": 401.8,
+    "elevation_low": 199,
+    "start_latlng": [
+      39.598062,
+      2.488542
+    ],
+    "end_latlng": [
+      39.607402,
+      2.502437
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 2,
+    "city": "Calvià",
+    "state": "Islas Baleares",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 1004,
+    "athlete_pr_effort": {
+      "id": 3483163869750058000,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 1004,
+      "distance": 3614.5,
+      "start_date": "2026-04-25T10:36:42Z",
+      "start_date_local": "2026-04-25T12:36:42Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-13T10:48:52Z"
+  },
+  {
+    "id": 16290971,
+    "resource_state": 2,
+    "name": "Ashdown Forest",
+    "activity_type": "Ride",
+    "distance": 7625.8,
+    "average_grade": 2.3,
+    "maximum_grade": 12.6,
+    "elevation_high": 221.1,
+    "elevation_low": 43,
+    "start_latlng": [
+      51.107845,
+      0.172801
+    ],
+    "end_latlng": [
+      51.059164,
+      0.105606
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Tunbridge Wells",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 1099,
+    "athlete_pr_effort": {
+      "id": 3511014007867942400,
+      "activity_id": 19268967365,
+      "activity_id_str": "19268967365",
+      "elapsed_time": 1099,
+      "distance": 7625.8,
+      "start_date": "2026-07-11T08:53:05Z",
+      "start_date_local": "2026-07-11T09:53:05Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-01T08:58:36Z"
+  },
+  {
+    "id": 16365466,
+    "resource_state": 2,
+    "name": "Three Chimneys to Sissinghurst Castle",
+    "activity_type": "Ride",
+    "distance": 3472,
+    "average_grade": 0.7,
+    "maximum_grade": 13.6,
+    "elevation_high": 73,
+    "elevation_low": 30,
+    "start_latlng": [
+      51.117638,
+      0.608511
+    ],
+    "end_latlng": [
+      51.108737,
+      0.563198
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Biddenden",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 355,
+    "athlete_pr_effort": {
+      "id": 3133470767346791000,
+      "activity_id": 9777239968,
+      "activity_id_str": "9777239968",
+      "elapsed_time": 355,
+      "distance": 3472,
+      "start_date": "2023-09-03T15:42:45Z",
+      "start_date_local": "2023-09-03T16:42:45Z",
+      "is_kom": false
+    },
+    "starred_date": "2023-09-03T14:36:44Z"
+  },
+  {
+    "id": 16716897,
+    "resource_state": 2,
+    "name": "Headcorn to Biddenden",
+    "activity_type": "Ride",
+    "distance": 4729.5,
+    "average_grade": 0.6,
+    "maximum_grade": 5.9,
+    "elevation_high": 46.2,
+    "elevation_low": 13.8,
+    "start_latlng": [
+      51.165449,
+      0.63431
+    ],
+    "end_latlng": [
+      51.124639,
+      0.648322
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Headcorn",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 440,
+    "athlete_pr_effort": {
+      "id": 3507796286606499000,
+      "activity_id": 19152327750,
+      "activity_id_str": "19152327750",
+      "elapsed_time": 440,
+      "distance": 4729.5,
+      "start_date": "2026-07-02T15:29:59Z",
+      "start_date_local": "2026-07-02T16:29:59Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-02T15:14:33Z"
+  },
+  {
+    "id": 16784833,
+    "resource_state": 2,
+    "name": "Epic KOM",
+    "activity_type": "VirtualRide",
+    "distance": 9410.5,
+    "average_grade": 3.9,
+    "maximum_grade": 9,
+    "elevation_high": 372,
+    "elevation_low": 7.6,
+    "start_latlng": [
+      -11.662143,
+      166.968831
+    ],
+    "end_latlng": [
+      -11.677667,
+      166.96087
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 3,
+    "city": null,
+    "state": "Temotu Province",
+    "country": "Solomon Islands",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 1527,
+    "athlete_pr_effort": {
+      "id": 2902553713727897000,
+      "activity_id": 6346225049,
+      "activity_id_str": "6346225049",
+      "elapsed_time": 1527,
+      "distance": 9410.5,
+      "start_date": "2021-12-05T11:35:36Z",
+      "start_date_local": "2021-12-05T11:35:36Z",
+      "is_kom": false
+    },
+    "starred_date": "2021-11-30T07:27:29Z"
+  },
+  {
+    "id": 17267489,
+    "resource_state": 2,
+    "name": "Alpe du Zwift",
+    "activity_type": "VirtualRide",
+    "distance": 12222.2,
+    "average_grade": 8.5,
+    "maximum_grade": 13.8,
+    "elevation_high": 1047.2,
+    "elevation_low": 11.4,
+    "start_latlng": [
+      -11.685091,
+      166.92127
+    ],
+    "end_latlng": [
+      -11.681972,
+      166.890006
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 5,
+    "city": null,
+    "state": "Temotu Province",
+    "country": "Solomon Islands",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 3453,
+    "athlete_pr_effort": {
+      "id": 3329920437089211400,
+      "activity_id": 13735591976,
+      "activity_id_str": "13735591976",
+      "elapsed_time": 3453,
+      "distance": 12222.2,
+      "start_date": "2025-02-26T18:43:03Z",
+      "start_date_local": "2025-02-26T18:43:03Z",
+      "is_kom": false
+    },
+    "starred_date": "2019-06-12T18:24:19Z"
+  },
+  {
+    "id": 19242586,
+    "resource_state": 2,
+    "name": "Cami d'en Carrossa-Coll d'Artà",
+    "activity_type": "Ride",
+    "distance": 3428.8,
+    "average_grade": 1.3,
+    "maximum_grade": 7.3,
+    "elevation_high": 195,
+    "elevation_low": 148,
+    "start_latlng": [
+      39.688635,
+      3.333689
+    ],
+    "end_latlng": [
+      39.693016,
+      3.295257
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Artà",
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 405,
+    "athlete_pr_effort": {
+      "id": 3483163868110135300,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 405,
+      "distance": 3428.8,
+      "start_date": "2026-04-25T16:00:19Z",
+      "start_date_local": "2026-04-25T18:00:19Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-13T10:49:03Z"
+  },
+  {
+    "id": 19432214,
+    "resource_state": 2,
+    "name": "Star Hill OFFICIAL South-east Climbs",
+    "activity_type": "Ride",
+    "distance": 1546.2,
+    "average_grade": 6.6,
+    "maximum_grade": 10.4,
+    "elevation_high": 213.4,
+    "elevation_low": 110.7,
+    "start_latlng": [
+      51.30401,
+      0.15271
+    ],
+    "end_latlng": [
+      51.31045,
+      0.13644
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Sevenoaks",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 387,
+    "athlete_pr_effort": {
+      "id": 3225924443093084000,
+      "activity_id": 11419612966,
+      "activity_id_str": "11419612966",
+      "elapsed_time": 387,
+      "distance": 1546.2,
+      "start_date": "2024-05-15T19:18:23Z",
+      "start_date_local": "2024-05-15T20:18:23Z",
+      "is_kom": false
+    },
+    "starred_date": "2024-05-14T12:04:49Z"
+  },
+  {
+    "id": 20579717,
+    "resource_state": 2,
+    "name": "Andratx mod Calvia",
+    "activity_type": "Ride",
+    "distance": 2081.3,
+    "average_grade": 5,
+    "maximum_grade": 18.8,
+    "elevation_high": 218.4,
+    "elevation_low": 114.8,
+    "start_latlng": [
+      39.583735,
+      2.432829
+    ],
+    "end_latlng": [
+      39.587809,
+      2.439546
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 1,
+    "city": "Andratx",
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 476,
+    "athlete_pr_effort": {
+      "id": 3483163869747638300,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 476,
+      "distance": 2081.3,
+      "start_date": "2026-04-25T10:02:19Z",
+      "start_date_local": "2026-04-25T12:02:19Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-13T10:48:51Z"
+  },
+  {
+    "id": 21045642,
+    "resource_state": 2,
+    "name": "Toll Lane to Ashdown Summit",
+    "activity_type": "Ride",
+    "distance": 5294.6,
+    "average_grade": 2.3,
+    "maximum_grade": 15.5,
+    "elevation_high": 214.6,
+    "elevation_low": 78.4,
+    "start_latlng": [
+      51.018984,
+      0.08778
+    ],
+    "end_latlng": [
+      51.063848,
+      0.093188
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": null,
+    "state": null,
+    "country": null,
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 762,
+    "athlete_pr_effort": {
+      "id": 3250052520698169000,
+      "activity_id": 11942356519,
+      "activity_id_str": "11942356519",
+      "elapsed_time": 762,
+      "distance": 5294.6,
+      "start_date": "2024-07-21T09:39:17Z",
+      "start_date_local": "2024-07-21T10:39:17Z",
+      "is_kom": false
+    },
+    "starred_date": "2024-07-20T05:53:14Z"
+  },
+  {
+    "id": 21164888,
+    "resource_state": 2,
+    "name": "Chart Hill Full",
+    "activity_type": "Ride",
+    "distance": 1410.5,
+    "average_grade": 5.2,
+    "maximum_grade": 21.9,
+    "elevation_high": 108,
+    "elevation_low": 34,
+    "start_latlng": [
+      51.209508,
+      0.563094
+    ],
+    "end_latlng": [
+      51.220369,
+      0.570786
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": "Chart Sutton",
+    "state": "England",
+    "country": "United Kingdom",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 252,
+    "athlete_pr_effort": {
+      "id": 2989629809811415000,
+      "activity_id": 7571893137,
+      "activity_id_str": "7571893137",
+      "elapsed_time": 252,
+      "distance": 1410.5,
+      "start_date": "2022-08-02T18:19:45Z",
+      "start_date_local": "2022-08-02T19:19:45Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-01T08:39:02Z"
+  },
+  {
+    "id": 21865854,
+    "resource_state": 2,
+    "name": "Climbcarrossa",
+    "activity_type": "Ride",
+    "distance": 3433.5,
+    "average_grade": 2.3,
+    "maximum_grade": 11.6,
+    "elevation_high": 232.4,
+    "elevation_low": 152,
+    "start_latlng": [
+      39.629328,
+      3.239946
+    ],
+    "end_latlng": [
+      39.655444,
+      3.249484
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": null,
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 605,
+    "athlete_pr_effort": {
+      "id": 3483163868109036500,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 605,
+      "distance": 3433.5,
+      "start_date": "2026-04-25T15:22:56Z",
+      "start_date_local": "2026-04-25T17:22:56Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-13T10:49:01Z"
+  },
+  {
+    "id": 24915977,
+    "resource_state": 2,
+    "name": "Deia Climb to the village",
+    "activity_type": "Ride",
+    "distance": 2084.5,
+    "average_grade": 2.7,
+    "maximum_grade": 5.7,
+    "elevation_high": 169.5,
+    "elevation_low": 112.7,
+    "start_latlng": [
+      39.763858,
+      2.654449
+    ],
+    "end_latlng": [
+      39.750555,
+      2.647586
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 0,
+    "city": null,
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 306,
+    "athlete_pr_effort": {
+      "id": 3483163869753232400,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 306,
+      "distance": 2084.5,
+      "start_date": "2026-04-25T07:54:45Z",
+      "start_date_local": "2026-04-25T09:54:45Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-13T10:48:41Z"
+  },
+  {
+    "id": 29614868,
+    "resource_state": 2,
+    "name": "* Le Galibier (départ Valloire)",
+    "activity_type": "Ride",
+    "distance": 16746.1,
+    "average_grade": 7,
+    "maximum_grade": 40.7,
+    "elevation_high": 2638.7,
+    "elevation_low": 1473.2,
+    "start_latlng": [
+      45.159604,
+      6.421395
+    ],
+    "end_latlng": [
+      45.064555,
+      6.409258
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 5,
+    "city": "Valloire",
+    "state": "Auvergne-Rhône-Alpes",
+    "country": "France",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 5687,
+    "athlete_pr_effort": {
+      "id": 3110958176605286400,
+      "activity_id": 9380596956,
+      "activity_id_str": "9380596956",
+      "elapsed_time": 5687,
+      "distance": 16746.1,
+      "start_date": "2023-07-03T09:33:24Z",
+      "start_date_local": "2023-07-03T11:33:24Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-07-01T10:16:23Z"
+  },
+  {
+    "id": 30076170,
+    "resource_state": 2,
+    "name": "Puig Major (Vertiente Lluc)",
+    "activity_type": "Ride",
+    "distance": 8286.33,
+    "average_grade": 4.7,
+    "maximum_grade": 10.5,
+    "elevation_high": 869,
+    "elevation_low": 529.7,
+    "start_latlng": [
+      39.816219,
+      2.829487
+    ],
+    "end_latlng": [
+      39.788323,
+      2.77874
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 3,
+    "city": "Escorca",
+    "state": "Illes Balears",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 1843,
+    "athlete_pr_effort": {
+      "id": 3483163869757607000,
+      "activity_id": 18255086853,
+      "activity_id_str": "18255086853",
+      "elapsed_time": 1843,
+      "distance": 8286.33,
+      "start_date": "2026-04-25T06:41:35Z",
+      "start_date_local": "2026-04-25T08:41:35Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-04-12T21:09:12Z"
+  },
+  {
+    "id": 37855724,
+    "resource_state": 2,
+    "name": "Mont Ventoux (par Malaucène)",
+    "activity_type": "Ride",
+    "distance": 20952.9,
+    "average_grade": 8.3,
+    "maximum_grade": 18,
+    "elevation_high": 1885.6,
+    "elevation_low": 333.5,
+    "start_latlng": [
+      44.17314,
+      5.133994
+    ],
+    "end_latlng": [
+      44.173549,
+      5.278066
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 5,
+    "city": "Malaucène",
+    "state": "Vaucluse",
+    "country": "France",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 8887,
+    "athlete_pr_effort": {
+      "id": 3503896603885220400,
+      "activity_id": 19015706981,
+      "activity_id_str": "19015706981",
+      "elapsed_time": 8887,
+      "distance": 20952.9,
+      "start_date": "2026-06-21T01:25:18Z",
+      "start_date_local": "2026-06-21T03:25:18Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-06-15T15:50:00Z"
+  },
+  {
+    "id": 37857683,
+    "resource_state": 2,
+    "name": "Mont Ventoux (par Sault)",
+    "activity_type": "Ride",
+    "distance": 25241.5,
+    "average_grade": 5.3,
+    "maximum_grade": 14.3,
+    "elevation_high": 1885.6,
+    "elevation_low": 696.2,
+    "start_latlng": [
+      44.095316,
+      5.408154
+    ],
+    "end_latlng": [
+      44.173538,
+      5.278678
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 5,
+    "city": "Sault",
+    "state": "Vaucluse",
+    "country": "France",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 6877,
+    "athlete_pr_effort": {
+      "id": 3503896582193516000,
+      "activity_id": 19015706981,
+      "activity_id_str": "19015706981",
+      "elapsed_time": 6877,
+      "distance": 25241.5,
+      "start_date": "2026-06-21T16:33:16Z",
+      "start_date_local": "2026-06-21T18:33:16Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-06-15T15:50:44Z"
+  },
+  {
+    "id": 37857865,
+    "resource_state": 2,
+    "name": "Col d'Aubisque (par Laruns)",
+    "activity_type": "Ride",
+    "distance": 17786.3,
+    "average_grade": 6.8,
+    "maximum_grade": 17.1,
+    "elevation_high": 1699.7,
+    "elevation_low": 513.5,
+    "start_latlng": [
+      42.984634,
+      -0.427634
+    ],
+    "end_latlng": [
+      42.976333,
+      -0.340181
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 5,
+    "city": "Laruns",
+    "state": "Pyrénées-Atlantiques",
+    "country": "France",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 4811,
+    "athlete_pr_effort": {
+      "id": 3500171828714181600,
+      "activity_id": 18879189039,
+      "activity_id_str": "18879189039",
+      "elapsed_time": 4811,
+      "distance": 17786.3,
+      "start_date": "2026-06-11T10:42:08Z",
+      "start_date_local": "2026-06-11T12:42:08Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-06-09T21:08:23Z"
+  },
+  {
+    "id": 37982329,
+    "resource_state": 2,
+    "name": "Coll De Femenia",
+    "activity_type": "Ride",
+    "distance": 7670.61,
+    "average_grade": 5.8,
+    "maximum_grade": 9.8,
+    "elevation_high": 535.8,
+    "elevation_low": 115.3,
+    "start_latlng": [
+      39.868431,
+      2.951971
+    ],
+    "end_latlng": [
+      39.855656,
+      2.901154
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 3,
+    "city": "Pollença",
+    "state": "Balearic Islands",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 1623,
+    "athlete_pr_effort": {
+      "id": 3484928838742838000,
+      "activity_id": 18319303241,
+      "activity_id_str": "18319303241",
+      "elapsed_time": 1623,
+      "distance": 7670.61,
+      "start_date": "2026-04-30T10:10:25Z",
+      "start_date_local": "2026-04-30T12:10:25Z",
+      "is_kom": false
+    },
+    "starred_date": "2023-04-24T19:29:52Z"
+  },
+  {
+    "id": 38000280,
+    "resource_state": 2,
+    "name": "Col de soller from tunnel",
+    "activity_type": "Ride",
+    "distance": 5377.5,
+    "average_grade": 5.8,
+    "maximum_grade": 14.2,
+    "elevation_high": 496,
+    "elevation_low": 183.8,
+    "start_latlng": [
+      39.745729,
+      2.697624
+    ],
+    "end_latlng": [
+      39.731568,
+      2.68622
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 2,
+    "city": "Sóller",
+    "state": "Balearic Islands",
+    "country": "Spain",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 1391,
+    "athlete_pr_effort": {
+      "id": 3283119479534481400,
+      "activity_id": 8949168288,
+      "activity_id_str": "8949168288",
+      "elapsed_time": 1391,
+      "distance": 5377.5,
+      "start_date": "2023-04-24T11:09:03Z",
+      "start_date_local": "2023-04-24T13:09:03Z",
+      "is_kom": false
+    },
+    "starred_date": "2025-04-30T21:58:18Z"
+  },
+  {
+    "id": 38095101,
+    "resource_state": 2,
+    "name": "Mont Ventoux (par Bédoin)",
+    "activity_type": "Ride",
+    "distance": 20741.8,
+    "average_grade": 8.3,
+    "maximum_grade": 14.1,
+    "elevation_high": 1887.4,
+    "elevation_low": 318,
+    "start_latlng": [
+      44.124019,
+      5.186361
+    ],
+    "end_latlng": [
+      44.173485,
+      5.278104
+    ],
+    "elevation_profile": null,
+    "elevation_profiles": null,
+    "climb_category": 5,
+    "city": "Bédoin",
+    "state": "Vaucluse",
+    "country": "France",
+    "private": false,
+    "hazardous": false,
+    "starred": true,
+    "pr_time": 8082,
+    "athlete_pr_effort": {
+      "id": 3503896603874614000,
+      "activity_id": 19015706981,
+      "activity_id_str": "19015706981",
+      "elapsed_time": 8082,
+      "distance": 20741.8,
+      "start_date": "2026-06-21T08:53:02Z",
+      "start_date_local": "2026-06-21T10:53:02Z",
+      "is_kom": false
+    },
+    "starred_date": "2026-06-15T15:56:35Z"
+  }
+]

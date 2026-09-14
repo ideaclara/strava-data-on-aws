@@ -1,0 +1,35 @@
+[
+  {
+    "score": 113.0,
+    "distribution_buckets": [
+      { "min": 0, "max": 105, "time": 1130.0 },
+      { "min": 106, "max": 125, "time": 1668.0 },
+      { "min": 126, "max": 142, "time": 3417.0 },
+      { "min": 143, "max": 158, "time": 2734.0 },
+      { "min": 159, "max": -1, "time": 272.0 }
+    ],
+    "type": "heartrate",
+    "resource_state": 3,
+    "sensor_based": true,
+    "points": 36,
+    "custom_zones": true
+  },
+  {
+    "distribution_buckets": [
+      { "max": 0, "min": 0, "time": 1593.0 },
+      { "max": 50, "min": 0, "time": 275.0 },
+      { "max": 100, "min": 50, "time": 384.0 },
+      { "max": 150, "min": 100, "time": 1063.0 },
+      { "max": 200, "min": 150, "time": 1485.0 },
+      { "max": 250, "min": 200, "time": 1397.0 },
+      { "max": 300, "min": 250, "time": 1175.0 },
+      { "max": 350, "min": 300, "time": 886.0 },
+      { "max": 400, "min": 350, "time": 574.0 },
+      { "max": 450, "min": 400, "time": 225.0 },
+      { "max": -1, "min": 450, "time": 164.0 }
+    ],
+    "type": "power",
+    "resource_state": 3,
+    "sensor_based": true
+  }
+]

@@ -1,0 +1,10 @@
+example output file name,curl
+segment_efforts_69811034982.json,"curl -s -X GET ""https://www.strava.com/api/v3/segment_efforts/69811034982""   -H ""Accept: application/json""   -H ""Authorization: Bearer $STRAVA_TOKEN"""
+segments_6691062.json,"curl -s -X GET ""https://www.strava.com/api/v3/segments/6691062""   -H ""Accept: application/json""   -H ""Authorization: Bearer $STRAVA_TOKEN"""
+segments_starred.json,"curl -s -X GET ""https://www.strava.com/api/v3/segments/starred?per_page=150""   -H ""Accept: application/json""   -H ""Authorization: Bearer $STRAVA_TOKEN"""
+athlete.json,"curl -s -X GET ""https://www.strava.com/api/v3/athlete""   -H ""Accept: application/json""   -H ""Authorization: Bearer $STRAVA_TOKEN"""
+athletes_3634905_stats.json,"curl -s -X GET ""https://www.strava.com/api/v3/athletes/3634905/stats""   -H ""Accept: application/json""   -H ""Authorization: Bearer $STRAVA_TOKEN"""
+segments_starred.json,"curl -s -X GET ""https://www.strava.com/api/v3/segments/starred?per_page=150""   -H ""Accept: application/json""   -H ""Authorization: Bearer $STRAVA_TOKEN"""
+activities_19084710818.json,"curl -s -X GET ""https://www.strava.com/api/v3/activities/19084710818""   -H ""Accept: application/json""   -H ""Authorization: Bearer $STRAVA_TOKEN"""
+activities_19084710818_zones.json,"curl -s -X GET ""https://www.strava.com/api/v3/activities/19084710818/zones""   -H ""Accept: application/json""   -H ""Authorization: Bearer $STRAVA_TOKEN"""
+segment_efforts_segmentId_6691062.json,"curl -s -X GET ""https://www.strava.com/api/v3/segment_efforts?segment_id=6691062&per_page=100""  -H ""Accept: application/json""   -H ""Authorization: Bearer $STRAVA_TOKEN"""

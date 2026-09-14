@@ -1,0 +1,65 @@
+{
+  "id": 6691062,
+  "resource_state": 3,
+  "name": "Toy's Hill",
+  "activity_type": "Ride",
+  "distance": 2575.37,
+  "average_grade": 8.5,
+  "maximum_grade": 16.6,
+  "elevation_high": 242.4,
+  "elevation_low": 65.8,
+  "start_latlng": [51.22484053379342, 0.10586609281734219],
+  "end_latlng": [51.246867531091176, 0.1053277959674114],
+  "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/D2J7PJ5LACDHANDWHJT3NIA5M5EDHPIA7TEHP7ZAEO7AATVNOQD6L3ICEBXJDUMISIWSMM77XIB3VKYBDKWRGQ3C",
+  "elevation_profiles": {
+    "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/D2J7PJ5LACDHANDWHJT3NIA5M5EDHPIA7TEHP7ZAEO7AATVNOQD6L3ICEBXJDUMISIWSMM77XIB3VKYBDKWRGQ3C",
+    "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/TDHOAHGQ6CVOHTELGD4RUPT32OVWN2CNHQ5YG4DKN4O64HNLL4NCIVDMQC3YQVNV6A6I53XSXSRQAYPKCKBPWPFP"
+  },
+  "climb_category": 2,
+  "city": "Sevenoaks",
+  "state": "England",
+  "country": "United Kingdom",
+  "private": false,
+  "hazardous": false,
+  "starred": true,
+  "created_at": "2014-02-17T20:15:57Z",
+  "updated_at": "2026-09-13T08:03:07Z",
+  "total_elevation_gain": 176.6,
+  "map": {
+    "id": "s6691062",
+    "polyline": "ezswHytS_@[sDiAyEoBOIsEaESKcAUsC]}Ha@aHNaDo@iIfAyFhCqB]_H|@_DFcAjAmCdEeFjEiC`Co@Ly@BiFg@cHDiAe@yEmCaBC",
+    "resource_state": 3
+  },
+  "effort_count": 64498,
+  "athlete_count": 18027,
+  "star_count": 1546,
+  "athlete_segment_stats": {
+    "pr_elapsed_time": 590,
+    "pr_date": "2020-07-22",
+    "pr_visibility": "everyone",
+    "pr_activity_id": 3802285370,
+    "pr_activity_id_str": "3802285370",
+    "pr_activity_visibility": "everyone",
+    "effort_count": 7
+  },
+  "xoms": {
+    "kom": "6:27",
+    "qom": "8:14",
+    "overall": "6:27",
+    "destination": {
+      "href": "strava://segments/6691062/leaderboard",
+      "type": "overall",
+      "name": "All-Time"
+    }
+  },
+  "local_legend": {
+    "athlete_id": 65383097,
+    "athlete_id_str": "65383097",
+    "title": "ian leigh",
+    "profile": "avatar/athlete/large.png",
+    "effort_description": "9 efforts in the last 90 days",
+    "effort_count": "9",
+    "effort_counts": { "overall": "9 efforts", "female": "3 efforts" },
+    "destination": "strava://segments/6691062/local_legend?categories%5B%5D=overall"
+  }
+}
