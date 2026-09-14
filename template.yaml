@@ -1,0 +1,90 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Cycling Analytics Serverless Pipeline
+
+Globals:
+  Function:
+    Runtime: nodejs24.x
+    Timeout: 30
+    MemorySize: 256
+    Architectures: [x86_64]
+    Environment:
+      Variables:
+        ATHLETE_DETAILS_TABLE: !Ref AthleteDetailsTable
+        SEGMENTS_TABLE: !Ref StravaSegmentsTable
+        SEGMENT_EFFORTS_TABLE: !Ref StravaSegmentEffortsTable
+
+Resources:
+  # HTTP API Gateway
+  CyclingApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      Name: cycling-analytics-api
+
+  # DynamoDB Tables
+  AthleteDetailsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: AthleteDetails
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: athleteId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: athleteId
+          KeyType: HASH
+
+  StravaSegmentsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: StravaSegments
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: segmentId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: segmentId
+          KeyType: HASH
+
+  StravaSegmentEffortsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: StravaSegmentEfforts
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: segmentId
+          AttributeType: S
+        - AttributeName: start_date_effortId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: segmentId
+          KeyType: HASH
+        - AttributeName: start_date_effortId
+          KeyType: RANGE
+
+  # Lambdas
+  AuthCallbackFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/strava-auth-callback/
+      Handler: index.handler
+      Events:
+        CallbackRoute:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref CyclingApi
+            Path: /callback
+            Method: GET
+
+  GetSegmentFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: src/strava-get-segment/
+      Handler: index.handler
+      Events:
+        GetSegmentRoute:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref CyclingApi
+            Path: /segments/{segmentId}
+            Method: GET
