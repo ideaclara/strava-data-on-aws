@@ -1,0 +1,19 @@
+{
+    "TableName": "StravaSegments",
+    "KeySchema": [
+        {
+            "AttributeName": "segmentId",
+            "KeyType": "HASH"
+        }
+    ],
+    "AttributeDefinitions": [
+        {
+            "AttributeName": "segmentId",
+            "AttributeType": "S"
+        }
+    ],
+    "BillingModeSummary": {
+        "BillingMode": "PAY_PER_REQUEST",
+        "LastUpdateToPayPerRequestDateTime": "2026-09-11T17:28:33.793000+01:00"
+    }
+}

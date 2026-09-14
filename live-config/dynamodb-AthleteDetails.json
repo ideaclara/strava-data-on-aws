@@ -1,0 +1,19 @@
+{
+    "TableName": "AthleteDetails",
+    "KeySchema": [
+        {
+            "AttributeName": "athleteId",
+            "KeyType": "HASH"
+        }
+    ],
+    "AttributeDefinitions": [
+        {
+            "AttributeName": "athleteId",
+            "AttributeType": "S"
+        }
+    ],
+    "BillingModeSummary": {
+        "BillingMode": "PAY_PER_REQUEST",
+        "LastUpdateToPayPerRequestDateTime": "2026-09-11T17:27:36.907000+01:00"
+    }
+}

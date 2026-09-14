@@ -1,0 +1,12 @@
+{
+    "ApiEndpoint": "https://chd10yvm86.execute-api.eu-west-2.amazonaws.com",
+    "ApiId": "chd10yvm86",
+    "ApiKeySelectionExpression": "$request.header.x-api-key",
+    "CreatedDate": "2026-09-11T17:08:22+00:00",
+    "DisableExecuteApiEndpoint": false,
+    "IpAddressType": "ipv4",
+    "Name": "cycling-analytics-api",
+    "ProtocolType": "HTTP",
+    "RouteSelectionExpression": "$request.method $request.path",
+    "Tags": {}
+}

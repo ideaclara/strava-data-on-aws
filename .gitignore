@@ -1,0 +1,12 @@
+# Sensitive credentials & tokens
+tokens.json
+tokens.json.tmp
+.env
+
+# Build outputs & packages
+node_modules/
+*.zip
+package-lock.json
+
+# System files
+.DS_Store

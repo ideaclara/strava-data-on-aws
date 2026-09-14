@@ -1,0 +1,44 @@
+{
+    "FunctionName": "strava-get-segment",
+    "FunctionArn": "arn:aws:lambda:eu-west-2:022074716478:function:strava-get-segment",
+    "Runtime": "nodejs24.x",
+    "Role": "arn:aws:iam::022074716478:role/CyclingAnalyticsLambdaExecutionRole",
+    "Handler": "index.handler",
+    "CodeSize": 1730,
+    "Description": "",
+    "Timeout": 10,
+    "MemorySize": 128,
+    "LastModified": "2026-09-13T10:07:28.000+0000",
+    "CodeSha256": "/wplr5wfCxhPip1uJ2zNiVviiAgviNlI5QyFLGDdixw=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "3e1e1f7e-6766-4570-8c77-a98a21ef6f12",
+    "Layers": [
+        {
+            "Arn": "arn:aws:lambda:eu-west-2:022074716478:layer:strava-common-layer:1",
+            "CodeSize": 1806
+        }
+    ],
+    "State": "Active",
+    "LastUpdateStatus": "Successful",
+    "PackageType": "Zip",
+    "Architectures": [
+        "x86_64"
+    ],
+    "EphemeralStorage": {
+        "Size": 512
+    },
+    "SnapStart": {
+        "ApplyOn": "None",
+        "OptimizationStatus": "Off"
+    },
+    "RuntimeVersionConfig": {
+        "RuntimeVersionArn": "arn:aws:lambda:eu-west-2::runtime:3f2695d917b249350567df30dd784ee6b9547bbdb635b4c188153c39b5347c8b"
+    },
+    "LoggingConfig": {
+        "LogFormat": "Text",
+        "LogGroup": "/aws/lambda/strava-get-segment"
+    }
+}
