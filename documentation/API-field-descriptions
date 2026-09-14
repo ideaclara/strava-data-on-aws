@@ -1,0 +1,141 @@
+### Models
+
+### AthleteDetails
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| `athleteId` | String (PK) | Canonical Strava numeric athlete ID stored as a string; serves as the primary partition key for the table. |
+| `firstname` | String | Athlete's given name as synchronized from the Strava athlete profile. |
+| `lastname` | String | Athlete's surname (or surname plus club affiliation / initials) as configured in Strava. |
+| `weight` | Number | Athlete body mass in kilograms ($\text{kg}$), used for power-to-weight ($\text{W/kg}$) calculations and pacing models. |
+| `updated_at` | String (ISO 8601) | UTC timestamp marking the last write/update operation on this DynamoDB item. |
+| `access_token` | String | Active OAuth 2.0 bearer token used to authenticate calls against Strava v3 REST API endpoints. |
+| `refresh_token` | String | Long-lived OAuth 2.0 refresh token used to obtain a new `access_token` once expired. |
+| `expires_at` | Number (Epoch) | Unix epoch timestamp (in seconds) when the current `access_token` expires; checked prior to API calls to trigger token refresh. |
+| `scope` | String | Space-delimited list of OAuth permission scopes granted by the athlete during the authorization flow. |
+| `xert_fitness_signature` | Map | Container object holding the athlete's 3-parameter (plus LTP) fitness signature values from Xert. |
+| ↳ `pp` | Number | **Peak Power (Watts):** Maximum instantaneous sprint power capacity; represents neuromuscular peak wattage. |
+| ↳ `ftp` | Number | **Threshold Power (Watts):** Aerobic threshold power boundary where lactate production exceeds maximum steady-state clearance rate. |
+| ↳ `ltp` | Number | **Lower Threshold Power (Watts):** Aerobic endurance boundary below which an athlete can sustain output with negligible carbohydrate depletion or fatigue accumulation. |
+| ↳ `hie` | Number | **High Intensity Energy (kJ):** Anaerobic work capacity above Threshold Power; analogous to $W'$ in traditional two-parameter critical power models. |
+
+### StravaSegments
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| `segmentId` | String (PK) | Canonical Strava numeric segment identifier stored as a string; serves as the primary partition key. |
+| `id` | Number | Numeric representation of the Strava segment identifier. |
+| `name` | String | Segment display name as titled on Strava. |
+| `activity_type` | String | Designated sport profile type for the segment (e.g., `"Ride"`, `"Run"`). |
+| `distance` | Number | Total segment length measured along the route in meters ($\text{m}$). |
+| `average_grade` | Number | Mean gradient percentage ($\%$) across the full length of the segment. |
+| `maximum_grade` | Number | Steepest incline pitch percentage ($\%$) recorded along the segment profile. |
+| `elevation_high` | Number | Highest geographic elevation point reached along the segment in meters ($\text{m}$). |
+| `elevation_low` | Number | Lowest geographic elevation point along the segment in meters ($\text{m}$). |
+| `total_elevation_gain` | Number | Net cumulative climbing elevation gained across the segment in meters ($\text{m}$). |
+| `climb_category` | Number | Official Strava UCI-style climb classification (`0` = uncategorized/minor rise, `1` to `5` for Category 4 up to Hors Catégorie). |
+| `start_latlng` | List [Number] | Geographic coordinates `[latitude, longitude]` marking the segment start trigger point. |
+| `end_latlng` | List [Number] | Geographic coordinates `[latitude, longitude]` marking the segment finish trigger point. |
+| `city` | String | Nearest municipality or city boundary enclosing the segment start. |
+| `state` | String | State, administrative region, or province containing the segment. |
+| `country` | String | Country containing the segment. |
+| `private` | Boolean | Flags whether the segment visibility is restricted to the creator (`true`) or public (`false`). |
+| `hazardous` | Boolean | Flags whether community members or moderators flagged the segment as hazardous (restricting leaderboards). |
+| `starred` | Boolean | Indicates whether the authenticating athlete currently has this segment starred/favorited. |
+| `star_count` | Number | Aggregate count of all Strava community members who have bookmarked/starred this segment. |
+| `athlete_count` | Number | Total count of unique Strava athletes who have recorded at least one verified effort on this segment. |
+| `effort_count` | Number | Total cumulative all-time efforts recorded across all athletes on this segment. |
+| `resource_state` | Number | Strava API object detail depth (`1` = meta, `2` = summary, `3` = fully hydrated detail with map polylines and community stats). |
+| `created_at` | String (ISO 8601) | UTC timestamp marking when the segment was originally created on Strava. |
+| `updated_at` | String (ISO 8601) | Upstream Strava timestamp marking when segment profile data was last altered on their platform. |
+| `last_synced_at` | String (ISO 8601) | UTC timestamp recording when this record was hydrated into the local DynamoDB table. |
+| `elevation_profile` | String (URL) | Hosted image chart showing the segment elevation cross-section. |
+| `elevation_profiles` | Map | CDN endpoints serving styled vector profile charts. |
+| ↳ `light_url` | String (URL) | High-contrast light theme elevation chart asset URL. |
+| ↳ `dark_url` | String (URL) | High-contrast dark theme elevation chart asset URL. |
+| `map` | Map | Encapsulated spatial polyline geometry container. |
+| ↳ `id` | String | Unique Strava identifier for the map object (prefixed with `s`). |
+| ↳ `polyline` | String | Google Encoded Polyline algorithm string defining the GPS polyline coordinate sequence. |
+| ↳ `resource_state` | Number | Completeness level of the spatial map asset. |
+| `xoms` | Map | Benchmark leader achievements across the segment. |
+| ↳ `kom` | String | All-time King of the Mountain fastest male completion time (`mm:ss` or `hh:mm:ss`). |
+| ↳ `qom` | String | All-time Queen of the Mountain fastest female completion time (`mm:ss` or `hh:mm:ss`). |
+| ↳ `overall` | String | Absolute fastest community record time across all leaderboards. |
+| ↳ `destination` | Map | Deep-link metadata navigating directly to the live Strava in-app leaderboard. |
+| `athlete_segment_stats` | Map | Authenticating athlete's historical performance summary on this segment. |
+| ↳ `effort_count` | Number | Number of completed attempts logged by the authenticating athlete. |
+| ↳ `pr_elapsed_time` | Number | Athlete's personal record time in seconds. |
+| ↳ `pr_date` | String (Date) | Calendar date (`YYYY-MM-DD`) when the athlete set their current personal record. |
+| ↳ `pr_activity_id` | Number | Numeric ID of the Strava activity containing the athlete's personal record effort. |
+| ↳ `pr_activity_id_str` | String | String representation of the activity ID to prevent 64-bit truncation in JSON parsers. |
+| ↳ `pr_visibility` | String | Privacy visibility level configured on the PR effort (`"everyone"`, `"followers_only"`, `"only_me"`). |
+| ↳ `pr_activity_visibility` | String | Privacy visibility level configured on the parent activity containing the PR. |
+| `local_legend` | Map | Rolling 90-day persistence achievement metadata. |
+| ↳ `title` | String | Full name of the current Local Legend title holder. |
+| ↳ `athlete_id` | Number | Strava athlete ID of the Local Legend holder. |
+| ↳ `athlete_id_str` | String | String representation of the Local Legend athlete ID. |
+| ↳ `profile` | String (URL) | Profile picture asset URL of the Local Legend title holder. |
+| ↳ `effort_count` | String | Quantity of efforts qualifying the current title holder over the trailing 90 days. |
+| ↳ `effort_description` | String | Formatted summary label describing the qualifying criteria (e.g., `"19 efforts in the last 90 days"`). |
+| ↳ `effort_counts` | Map | Breakdown of qualifying effort counts across overall and female categories. |
+| ↳ `destination` | String (URI) | Deep link URI opening the Local Legend leaderboard view within the Strava app. |
+
+### StravaSegmentEfforts
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| `segmentId` | String (PK) | Canonical Strava numeric segment identifier stored as a string; serves as the table partition key. |
+| `start_date_effortId` | String (SK) | Composite sort key combining UTC start timestamp and unique effort ID (`<ISO8601>#<effortId>`), ensuring temporal chronological sorting and uniqueness. |
+| `id` | Number | Canonical 64-bit unique identifier assigned by Strava for this individual segment effort. |
+| `name` | String | Segment display title associated with this effort. |
+| `distance` | Number | Distance traversed during the effort along the segment corridor in meters ($\text{m}$). |
+| `elapsed_time` | Number | Total wall-clock time elapsed between passing the segment start and finish triggers, in seconds. |
+| `moving_time` | Number | Net active pedaling/moving duration in seconds, excluding pauses or zero-speed stops. |
+| `start_date` | String (ISO 8601) | Coordinated Universal Time (UTC) timestamp marking the exact start of the effort. |
+| `start_date_local` | String (ISO 8601) | Timestamp marking the start of the effort in the local timezone where the ride occurred. |
+| `start_index` | Number | Zero-based index pointer of the initial data point within the parent activity's GPS/sensor telemetry stream. |
+| `end_index` | Number | Zero-based index pointer of the terminating data point within the parent activity's GPS/sensor telemetry stream. |
+| `average_watts` | Number | Mean mechanical power output sustained throughout the effort in Watts ($\text{W}$). |
+| `device_watts` | Boolean | Flags whether power was measured directly via an on-bike power meter (`true`) or estimated by Strava algorithms (`false`). |
+| `average_cadence` | Number | Mean pedaling cadence sustained across the effort duration in revolutions per minute ($\text{RPM}$). |
+| `average_heartrate` | Number | Mean cardiovascular heart rate recorded during the effort in beats per minute ($\text{BPM}$). |
+| `max_heartrate` | Number | Peak cardiovascular heart rate recorded during the effort in beats per minute ($\text{BPM}$). |
+| `pr_rank` | Number / Null | Strava's historical PR badge at activity upload time (`1` = gold PR, `2` = silver 2nd best, `3` = bronze 3rd best, or `null`). |
+| `personal_pr_rank` | Number | Pipeline-computed all-time Standard Competition Rank ("1224" ranking) across every historical effort by this athlete, evaluated on `elapsed_time`. |
+| `total_segment_efforts` | Number | Total count of all completed attempts logged by the athlete on this segment at the time of ranking computation. |
+| `kom_rank` | Number / Null | Overall rank on the global segment leaderboard if within top-tier standing, otherwise `null`. |
+| `visibility` | String | Access control permission applied to this effort (`"everyone"`, `"followers_only"`, `"only_me"`). |
+| `resource_state` | Number | Strava entity hydration level (`1` = meta, `2` = summary, `3` = detailed). |
+| `last_synced_at` | String (ISO 8601) | UTC timestamp marking when this effort record was ingested and enriched in DynamoDB. |
+| `achievements` | List [Map] | Array of award badges unlocked during this effort (such as top-3 PRs or KOM placements). |
+| ↳ `type` | String | Category of achievement achieved (e.g., `"pr"`, `"overall"`). |
+| ↳ `rank` | Number | Numerical ranking placement earned (e.g., `2` for 2nd best historical effort). |
+| ↳ `type_id` | Number | Internal Strava classification identifier for the achievement type. |
+| `athlete` | Map | Reference block identifying the athlete who recorded the effort. |
+| ↳ `id` | Number | Canonical numeric athlete identifier. |
+| ↳ `id_str` | String | String representation of athlete ID to preserve 64-bit numerical precision in downstream parsers. |
+| ↳ `resource_state` | Number | Strava entity detail level for the athlete reference object. |
+| `activity` | Map | Pointer to the parent Strava activity containing this segment split. |
+| ↳ `id` | Number | Unique numeric identifier of the containing activity. |
+| ↳ `id_str` | String | String representation of parent activity ID to prevent 64-bit truncation. |
+| ↳ `visibility` | String | Privacy visibility setting inherited from the parent activity. |
+| ↳ `resource_state` | Number | Strava entity detail level for the activity reference object. |
+| `segment` | Map | Embedded summary snapshot of the underlying segment definition at the time of effort enrichment. |
+| ↳ `id` | Number | Unique numeric segment identifier. |
+| ↳ `name` | String | Segment display name. |
+| ↳ `activity_type` | String | Associated discipline type (e.g., `"Ride"`). |
+| ↳ `distance` | Number | Segment corridor length in meters ($\text{m}$). |
+| ↳ `average_grade` | Number | Mean gradient percentage ($\%$). |
+| ↳ `maximum_grade` | Number | Maximum incline percentage ($\%$). |
+| ↳ `climb_category` | Number | UCI-style climb classification code (`0` to `5`). |
+| ↳ `elevation_high` | Number | Maximum route altitude in meters ($\text{m}$). |
+| ↳ `elevation_low` | Number | Minimum route altitude in meters ($\text{m}$). |
+| ↳ `start_latlng` | List [Number] | Starting GPS coordinates `[latitude, longitude]`. |
+| ↳ `end_latlng` | List [Number] | Ending GPS coordinates `[latitude, longitude]`. |
+| ↳ `city` | String | Municipality encompassing the segment origin. |
+| ↳ `state` | String | Province, region, or county. |
+| ↳ `country` | String | Country designation. |
+| ↳ `private` | Boolean | Indicates whether the segment is restricted to private view. |
+| ↳ `hazardous` | Boolean | Flags whether the segment has been designated hazardous. |
+| ↳ `starred` | Boolean | Segment bookmark state for the authenticating athlete. |
+| ↳ `resource_state` | Number | Strava summary depth of the embedded segment metadata. |

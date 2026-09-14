@@ -1,0 +1,45 @@
+{
+  "updated_at": {
+    "S": "2026-09-14T17:33:11Z"
+  },
+  "athleteId": {
+    "S": "3634905"
+  },
+  "lastname": {
+    "S": "Taylor KVB"
+  },
+  "xert_fitness_signature": {
+    "M": {
+      "pp": {
+        "N": "880.4005813659977"
+      },
+      "ftp": {
+        "N": "271.6014550178407"
+      },
+      "ltp": {
+        "N": "228.3"
+      },
+      "hie": {
+        "N": "17.35563477900224"
+      }
+    }
+  },
+  "refresh_token": {
+    "S": "2ac770eb3f975ecbef0d4eb9cd5917a75fb383e3"
+  },
+  "firstname": {
+    "S": "Matt"
+  },
+  "scope": {
+    "S": "activity:read_all profile:read_all read"
+  },
+  "access_token": {
+    "S": "6a35dfbc089b1ac29de55f90c4bda6062f024224"
+  },
+  "expires_at": {
+    "N": "1789413882"
+  },
+  "weight": {
+    "N": "81"
+  }
+}

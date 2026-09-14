@@ -156,20 +156,20 @@ export const handler = async (event) => {
         const efforts = await effortsRes.json();
         console.log(`[${segmentId}] Ranking and storing ${efforts.length} efforts in DynamoDB...`);
 
-        // Sort: moving_time -> elapsed_time -> start_date (oldest benchmark first)
+        // Sort: elapsed_time -> moving_time -> start_date (oldest benchmark first)
         const sortedEfforts = [...efforts].sort((a, b) => {
-          const movA = a.moving_time ?? a.elapsed_time;
-          const movB = b.moving_time ?? b.elapsed_time;
-          if (movA !== movB) return movA - movB;
-
-          const elapA = a.elapsed_time ?? movA;
-          const elapB = b.elapsed_time ?? movB;
+          const elapA = a.elapsed_time ?? a.moving_time;
+          const elapB = b.elapsed_time ?? b.moving_time;
           if (elapA !== elapB) return elapA - elapB;
+
+          const movA = a.moving_time ?? elapA;
+          const movB = b.moving_time ?? elapB;
+          if (movA !== movB) return movA - movB;
 
           return new Date(a.start_date) - new Date(b.start_date);
         });
 
-        // Standard Competition Ranking (1, 2, 3, 4, 4, 6, 7)
+        // Standard Competition Ranking (1, 2, 3, 4, 4, 6, 7) on elapsed_time
         const rankMap = new Map();
         let currentRank = 1;
 
@@ -178,13 +178,13 @@ export const handler = async (event) => {
             const prev = sortedEfforts[i - 1];
             const curr = sortedEfforts[i];
 
-            const prevMov = prev.moving_time ?? prev.elapsed_time;
-            const currMov = curr.moving_time ?? curr.elapsed_time;
-            const prevElap = prev.elapsed_time ?? prevMov;
-            const currElap = curr.elapsed_time ?? currMov;
+            const prevElap = prev.elapsed_time ?? prev.moving_time;
+            const currElap = curr.elapsed_time ?? curr.moving_time;
+            const prevMov = prev.moving_time ?? prevElap;
+            const currMov = curr.moving_time ?? currElap;
 
             // Step rank to current array position + 1 only if times differ
-            if (currMov !== prevMov || currElap !== prevElap) {
+            if (currElap !== prevElap || currMov !== prevMov) {
               currentRank = i + 1;
             }
           }

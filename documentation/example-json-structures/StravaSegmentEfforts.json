@@ -1,0 +1,195 @@
+{
+  "activity": {
+    "M": {
+      "id": {
+        "N": "7059161508"
+      },
+      "visibility": {
+        "S": "everyone"
+      },
+      "id_str": {
+        "S": "7059161508"
+      },
+      "resource_state": {
+        "N": "1"
+      }
+    }
+  },
+  "start_date_local": {
+    "S": "2022-04-29T08:40:23Z"
+  },
+  "distance": {
+    "N": "1157.9"
+  },
+  "resource_state": {
+    "N": "2"
+  },
+  "kom_rank": {
+    "NULL": true
+  },
+  "max_heartrate": {
+    "N": "140"
+  },
+  "start_index": {
+    "N": "4992"
+  },
+  "visibility": {
+    "S": "everyone"
+  },
+  "name": {
+    "S": "Zwischenanstieg Coll de Femenia->Luc"
+  },
+  "average_cadence": {
+    "N": "70.9"
+  },
+  "segmentId": {
+    "S": "12089486"
+  },
+  "achievements": {
+    "L": [
+      {
+        "M": {
+          "type": {
+            "S": "pr"
+          },
+          "rank": {
+            "N": "2"
+          },
+          "type_id": {
+            "N": "3"
+          }
+        }
+      }
+    ]
+  },
+  "device_watts": {
+    "BOOL": true
+  },
+  "moving_time": {
+    "N": "257"
+  },
+  "segment": {
+    "M": {
+      "elevation_profiles": {
+        "NULL": true
+      },
+      "country": {
+        "S": "Spain"
+      },
+      "private": {
+        "BOOL": false
+      },
+      "distance": {
+        "N": "1157.9"
+      },
+      "average_grade": {
+        "N": "4.6"
+      },
+      "maximum_grade": {
+        "N": "9.5"
+      },
+      "climb_category": {
+        "N": "0"
+      },
+      "city": {
+        "S": "Escorca"
+      },
+      "resource_state": {
+        "N": "2"
+      },
+      "hazardous": {
+        "BOOL": false
+      },
+      "elevation_high": {
+        "N": "540.4"
+      },
+      "elevation_profile": {
+        "NULL": true
+      },
+      "start_latlng": {
+        "L": [
+          {
+            "N": "39.841469"
+          },
+          {
+            "N": "2.896124"
+          }
+        ]
+      },
+      "elevation_low": {
+        "N": "487.2"
+      },
+      "starred": {
+        "BOOL": true
+      },
+      "end_latlng": {
+        "L": [
+          {
+            "N": "39.831534"
+          },
+          {
+            "N": "2.89558"
+          }
+        ]
+      },
+      "activity_type": {
+        "S": "Ride"
+      },
+      "name": {
+        "S": "Zwischenanstieg Coll de Femenia->Luc"
+      },
+      "id": {
+        "N": "12089486"
+      },
+      "state": {
+        "S": "Illes Balears"
+      }
+    }
+  },
+  "start_date_effortId": {
+    "S": "2022-04-29T06:40:23Z#2955093915534937600"
+  },
+  "elapsed_time": {
+    "N": "257"
+  },
+  "id": {
+    "N": "2955093915534937600"
+  },
+  "end_index": {
+    "N": "5249"
+  },
+  "total_segment_efforts": {
+    "N": "10"
+  },
+  "personal_pr_rank": {
+    "N": "4"
+  },
+  "athlete": {
+    "M": {
+      "id": {
+        "N": "3634905"
+      },
+      "id_str": {
+        "S": "3634905"
+      },
+      "resource_state": {
+        "N": "1"
+      }
+    }
+  },
+  "average_watts": {
+    "N": "223.7"
+  },
+  "start_date": {
+    "S": "2022-04-29T06:40:23Z"
+  },
+  "last_synced_at": {
+    "S": "2026-09-14T15:47:01.094Z"
+  },
+  "average_heartrate": {
+    "N": "134.2"
+  },
+  "pr_rank": {
+    "N": "2"
+  }
+}

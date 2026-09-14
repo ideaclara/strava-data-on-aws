@@ -1,0 +1,206 @@
+{
+  "private": {
+    "BOOL": false
+  },
+  "distance": {
+    "N": "1157.9"
+  },
+  "resource_state": {
+    "N": "3"
+  },
+  "hazardous": {
+    "BOOL": false
+  },
+  "maximum_grade": {
+    "N": "9.5"
+  },
+  "elevation_high": {
+    "N": "540.4"
+  },
+  "name": {
+    "S": "Zwischenanstieg Coll de Femenia->Luc"
+  },
+  "country": {
+    "S": "Spain"
+  },
+  "elevation_low": {
+    "N": "487.2"
+  },
+  "segmentId": {
+    "S": "12089486"
+  },
+  "state": {
+    "S": "Illes Balears"
+  },
+  "end_latlng": {
+    "L": [
+      {
+        "N": "39.831534"
+      },
+      {
+        "N": "2.89558"
+      }
+    ]
+  },
+  "local_legend": {
+    "M": {
+      "effort_count": {
+        "S": "19"
+      },
+      "profile": {
+        "S": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/119048144/27483088/30/large.jpg"
+      },
+      "effort_description": {
+        "S": "19 efforts in the last 90 days"
+      },
+      "effort_counts": {
+        "M": {
+          "overall": {
+            "S": "19 efforts"
+          },
+          "female": {
+            "S": "19 efforts"
+          }
+        }
+      },
+      "title": {
+        "S": "Paulina Krissakova "
+      },
+      "destination": {
+        "S": "strava://segments/12089486/local_legend?categories%5B%5D=overall"
+      },
+      "athlete_id": {
+        "N": "119048144"
+      },
+      "athlete_id_str": {
+        "S": "119048144"
+      }
+    }
+  },
+  "city": {
+    "S": "Escorca"
+  },
+  "activity_type": {
+    "S": "Ride"
+  },
+  "starred": {
+    "BOOL": true
+  },
+  "total_elevation_gain": {
+    "N": "0"
+  },
+  "xoms": {
+    "M": {
+      "qom": {
+        "S": "2:36"
+      },
+      "destination": {
+        "M": {
+          "name": {
+            "S": "All-Time"
+          },
+          "type": {
+            "S": "overall"
+          },
+          "href": {
+            "S": "strava://segments/12089486/leaderboard"
+          }
+        }
+      },
+      "kom": {
+        "S": "1:48"
+      },
+      "overall": {
+        "S": "1:48"
+      }
+    }
+  },
+  "id": {
+    "N": "12089486"
+  },
+  "elevation_profile": {
+    "S": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/5NPG324YTA5NAS33FPEI7RDCAEL7V6YN44GUENDIJ34S6X7DKRDEUB6LWEJG2CPJDAINNY4STAIBQOI6HPXHTDOZ"
+  },
+  "climb_category": {
+    "N": "0"
+  },
+  "created_at": {
+    "S": "2016-05-15T18:30:36Z"
+  },
+  "star_count": {
+    "N": "85"
+  },
+  "athlete_count": {
+    "N": "196481"
+  },
+  "start_latlng": {
+    "L": [
+      {
+        "N": "39.841469"
+      },
+      {
+        "N": "2.896124"
+      }
+    ]
+  },
+  "updated_at": {
+    "S": "2026-09-14T08:04:19Z"
+  },
+  "athlete_segment_stats": {
+    "M": {
+      "pr_activity_visibility": {
+        "S": "everyone"
+      },
+      "pr_elapsed_time": {
+        "N": "233"
+      },
+      "pr_activity_id": {
+        "N": "18255086853"
+      },
+      "effort_count": {
+        "N": "10"
+      },
+      "pr_activity_id_str": {
+        "S": "18255086853"
+      },
+      "pr_date": {
+        "S": "2026-04-25"
+      },
+      "pr_visibility": {
+        "S": "everyone"
+      }
+    }
+  },
+  "last_synced_at": {
+    "S": "2026-09-14T15:47:00.779Z"
+  },
+  "map": {
+    "M": {
+      "resource_state": {
+        "N": "3"
+      },
+      "id": {
+        "S": "s12089486"
+      },
+      "polyline": {
+        "S": "cpdrFwstPdGmAn@S|@Mr@QXEbAYdCg@nA]f@Ih@AdBVrEfAf@NLHXVf@l@pAtAPLXJh@BtDU`@?`@D`Db@|CV"
+      }
+    }
+  },
+  "effort_count": {
+    "N": "559585"
+  },
+  "average_grade": {
+    "N": "4.6"
+  },
+  "elevation_profiles": {
+    "M": {
+      "light_url": {
+        "S": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/5NPG324YTA5NAS33FPEI7RDCAEL7V6YN44GUENDIJ34S6X7DKRDEUB6LWEJG2CPJDAINNY4STAIBQOI6HPXHTDOZ"
+      },
+      "dark_url": {
+        "S": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/VMDYN7FE54IXZOZRTKHMVYVEYS2GWNLFWQGWNAGOXCHXMTKNQGXYLIARHHJGLY4KHV3MKSCHEVLEVT4BMY6CVWIZ"
+      }
+    }
+  }
+}

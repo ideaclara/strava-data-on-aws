@@ -1,0 +1,106 @@
+[
+  {
+    "toolSpec": {
+      "name": "getAthleteProfile",
+      "description": "Retrieves the athlete's biometrics and 4-parameter Xert fitness signature from DynamoDB. Use this tool when assessing power-to-weight ratios, threshold boundaries, or sprint capacity.",
+      "inputSchema": {
+        "json": {
+          "type": "object",
+          "properties": {
+            "athleteId": {
+              "type": "string",
+              "description": "Canonical Strava numeric athlete ID stored as a string (e.g., '3634905')."
+            }
+          },
+          "required": ["athleteId"]
+        }
+      }
+    }
+  },
+  {
+    "toolSpec": {
+      "name": "searchSegments",
+      "description": "Searches starred Strava segments using in-memory fuzzy matching on segment names. Returns segment ID, distance, elevation gain, average/maximum grade, and climb category. If 'q' is omitted, returns the full starred catalog.",
+      "inputSchema": {
+        "json": {
+          "type": "object",
+          "properties": {
+            "q": {
+              "type": "string",
+              "description": "Fuzzy search query term matching segment names (e.g., 'toys hill', 'coll de femenia', 'brasted')."
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "toolSpec": {
+      "name": "getSegmentDetails",
+      "description": "Retrieves fully hydrated segment metadata including route elevation high/low, polyline coordinate maps, Local Legend status, and all-time leaderboard benchmarks (KOM/QOM).",
+      "inputSchema": {
+        "json": {
+          "type": "object",
+          "properties": {
+            "segmentId": {
+              "type": "string",
+              "description": "Canonical Strava numeric segment identifier (e.g., '12089486')."
+            },
+            "refresh": {
+              "type": "boolean",
+              "description": "Force an immediate upstream cache refresh from Strava instead of reading cached DynamoDB records.",
+              "default": false
+            }
+          },
+          "required": ["segmentId"]
+        }
+      }
+    }
+  },
+  {
+    "toolSpec": {
+      "name": "getSegmentEfforts",
+      "description": "Retrieves historical attempts by the athlete on a specific segment. Each effort includes elapsed and moving times, power meter wattage, heart rate, cadence, and pipeline-computed all-time competition ranking (personal_pr_rank).",
+      "inputSchema": {
+        "json": {
+          "type": "object",
+          "properties": {
+            "segmentId": {
+              "type": "string",
+              "description": "Canonical Strava numeric segment identifier (e.g., '12089486')."
+            },
+            "order": {
+              "type": "string",
+              "description": "Chronological sort order by attempt start timestamp.",
+              "enum": ["asc", "desc"],
+              "default": "desc"
+            },
+            "limit": {
+              "type": "integer",
+              "description": "Maximum number of historical efforts to return.",
+              "default": 50
+            }
+          },
+          "required": ["segmentId"]
+        }
+      }
+    }
+  },
+  {
+    "toolSpec": {
+      "name": "triggerStarredSync",
+      "description": "Asynchronously initiates background catalog discovery and SQS enrichment for starred segments. Returns an immediate HTTP 202 status.",
+      "inputSchema": {
+        "json": {
+          "type": "object",
+          "properties": {
+            "athleteId": {
+              "type": "string",
+              "description": "Canonical Strava numeric athlete ID to synchronize (e.g., '3634905')."
+            }
+          }
+        }
+      }
+    }
+  }
+]

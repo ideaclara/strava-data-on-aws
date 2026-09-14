@@ -1,0 +1,17 @@
+{
+  "updated_at": "2026-09-14T17:33:11Z",
+  "athleteId": "3634905",
+  "lastname": "Taylor KVB",
+  "xert_fitness_signature": {
+    "pp": 880.4005813659977,
+    "ftp": 271.6014550178407,
+    "ltp": 228.3,
+    "hie": 17.35563477900224
+  },
+  "refresh_token": "2ac770eb3f975ecbef0d4eb9cd5917a75fb383e3",
+  "firstname": "Matt",
+  "scope": "activity:read_all profile:read_all read",
+  "access_token": "6a35dfbc089b1ac29de55f90c4bda6062f024224",
+  "expires_at": 1789413882,
+  "weight": 81
+}
