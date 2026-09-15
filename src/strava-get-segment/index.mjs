@@ -12,6 +12,18 @@ const ddb = DynamoDBDocumentClient.from(
   },
 );
 
+// Serializer replacer to safely handle 64-bit integers and SDK NumberValues
+const serializeWithBigInt = (data) =>
+  JSON.stringify(data, (key, value) => {
+    if (typeof value === "bigint") {
+      return value.toString();
+    }
+    if (value && typeof value === "object" && value.constructor?.name === "NumberValue") {
+      return value.value;
+    }
+    return value;
+  });
+
 export const handler = async (event) => {
   console.log("Received invocation event:", JSON.stringify(event));
 
@@ -49,7 +61,10 @@ export const handler = async (event) => {
   if (missing.length > 0) {
     return {
       statusCode: 400,
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+      },
       body: JSON.stringify({
         error: "Bad Request",
         message: `Missing required parameter(s): ${missing.join(", ")}`,
@@ -63,7 +78,10 @@ export const handler = async (event) => {
   if (!/^\d+$/.test(athleteId) || !/^\d+$/.test(segmentId)) {
     return {
       statusCode: 400,
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+      },
       body: JSON.stringify({
         error: "Bad Request",
         message: "athleteId and segmentId must be positive numeric strings.",
@@ -81,7 +99,10 @@ export const handler = async (event) => {
       console.error(`Strava API returned ${res.status}: ${errorBody}`);
       return {
         statusCode: res.status,
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*",
+        },
         body: JSON.stringify({
           error: "Strava API Error",
           statusCode: res.status,
@@ -98,8 +119,8 @@ export const handler = async (event) => {
     // 4. Ingest the entire JSON response into DynamoDB
     const item = {
       ...segmentData,
-      segmentId: String(segmentData.id), // Matches your table's S partition key
-      athleteId: athleteId, // Retains context of which athlete made the call
+      segmentId: String(segmentData.id), // Matches table's S partition key
+      athleteId: athleteId,              // Retains context of requesting athlete
       last_synced_at: new Date().toISOString(),
     };
 
@@ -112,31 +133,23 @@ export const handler = async (event) => {
 
     console.log(`Stored complete segment ${segmentId} in StravaSegments.`);
 
-    // 5. Return confirmation and high-level summary
+    // 5. Return the full item payload directly at root level
     return {
       statusCode: 200,
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        message: "Segment synced successfully",
-        segmentId: item.segmentId,
-        name: item.name,
-        distance: item.distance,
-        average_grade: item.average_grade,
-        maximum_grade: item.maximum_grade,
-        total_elevation_gain: item.total_elevation_gain,
-        city: item.city,
-        state: item.state,
-        pr_elapsed_time: item.athlete_segment_stats?.pr_elapsed_time || null,
-        pr_date: item.athlete_segment_stats?.pr_date || null,
-        effort_count: item.athlete_segment_stats?.effort_count || 0,
-        last_synced_at: item.last_synced_at,
-      }),
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+      },
+      body: serializeWithBigInt(item),
     };
   } catch (err) {
     console.error("Execution error:", err);
     return {
       statusCode: 500,
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+      },
       body: JSON.stringify({
         error: "Internal Server Error",
         message: err.message,

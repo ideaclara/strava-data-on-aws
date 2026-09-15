@@ -15,15 +15,18 @@ async function getSegmentCatalog() {
     return cachedSegments;
   }
 
-  const result = await ddb.send(
-    new ScanCommand({
-      TableName: SEGMENTS_TABLE,
-      ProjectionExpression: "segmentId, #nm, climb_category, distance, total_elevation_gain, average_grade",
-      ExpressionAttributeNames: {
-        "#nm": "name",
-      },
-    })
-  );
+const result = await ddb.send(
+  new ScanCommand({
+    TableName: SEGMENTS_TABLE,
+    ProjectionExpression:
+      "segmentId, #nm, climb_category, distance, total_elevation_gain, average_grade, #stats.#pr_time",
+    ExpressionAttributeNames: {
+      "#nm": "name",
+      "#stats": "athlete_segment_stats",
+      "#pr_time": "pr_elapsed_time",
+    },
+  })
+);
 
   cachedSegments = result.Items || [];
   lastCacheTime = now;
@@ -63,6 +66,7 @@ export const handler = async (event) => {
     const formatted = filteredResults.map((result) => ({
       id: Number(result.item.segmentId),
       name: result.item.name,
+      pr_elapsed_time: result.item.athlete_segment_stats?.pr_elapsed_time,
       distance: result.item.distance,
       average_grade: result.item.average_grade,
       climb_category: result.item.climb_category,
