@@ -2,7 +2,7 @@
   {
     "toolSpec": {
       "name": "getAthleteProfile",
-      "description": "Retrieves the athlete's biometrics and 4-parameter Xert fitness signature from DynamoDB. Use this tool when assessing power-to-weight ratios, threshold boundaries, or sprint capacity.",
+      "description": "Retrieves the athlete's biometrics, 4-parameter Xert fitness signature, starred segment list, and additional watch-list segment IDs from DynamoDB. Use this tool when assessing power-to-weight ratios, threshold boundaries, sprint capacity, or segment curation.",
       "inputSchema": {
         "json": {
           "type": "object",
@@ -20,14 +20,14 @@
   {
     "toolSpec": {
       "name": "searchSegments",
-      "description": "Searches starred Strava segments using in-memory fuzzy matching on segment names. Returns segment ID, distance, elevation gain, average/maximum grade, and climb category. If 'q' is omitted, returns the full starred catalog.",
+      "description": "Searches the segment catalog using in-memory fuzzy matching on segment names. Returns normalized segment objects with IDs, geography, climb stats, KOM/QOM, and match scores. If 'q' is omitted, returns the full catalog.",
       "inputSchema": {
         "json": {
           "type": "object",
           "properties": {
             "q": {
               "type": "string",
-              "description": "Fuzzy search query term matching segment names (e.g., 'toys hill', 'coll de femenia', 'brasted')."
+              "description": "Fuzzy search query term matching segment names (e.g., 'toys hill', 'coll de femenia', 'frittenden')."
             }
           }
         }
@@ -37,14 +37,18 @@
   {
     "toolSpec": {
       "name": "getSegmentDetails",
-      "description": "Retrieves fully hydrated segment metadata including route elevation high/low, polyline coordinate maps, Local Legend status, and all-time leaderboard benchmarks (KOM/QOM).",
+      "description": "Retrieves segment metadata including route elevation high/low, coordinates, climb statistics, and all-time leaderboard benchmarks (KOM/QOM). Reads from DynamoDB cache with zero quota consumption unless refresh=true is requested.",
       "inputSchema": {
         "json": {
           "type": "object",
           "properties": {
             "segmentId": {
               "type": "string",
-              "description": "Canonical Strava numeric segment identifier (e.g., '12089486')."
+              "description": "Canonical Strava numeric segment identifier (e.g., '5064388')."
+            },
+            "athleteId": {
+              "type": "string",
+              "description": "Optional Strava athlete ID. Only required if 'refresh' is set to true to authorize an upstream fetch."
             },
             "refresh": {
               "type": "boolean",
@@ -60,14 +64,14 @@
   {
     "toolSpec": {
       "name": "getSegmentEfforts",
-      "description": "Retrieves historical attempts by the athlete on a specific segment. Each effort includes elapsed and moving times, power meter wattage, heart rate, cadence, and pipeline-computed all-time competition ranking (personal_pr_rank).",
+      "description": "Retrieves compact historical attempts by the athlete on a specific segment. Each effort includes activity ID, effort ID, elapsed and moving times, power meter wattage, heart rate, cadence, and pipeline-computed all-time competition ranking (personal_pr_rank).",
       "inputSchema": {
         "json": {
           "type": "object",
           "properties": {
             "segmentId": {
               "type": "string",
-              "description": "Canonical Strava numeric segment identifier (e.g., '12089486')."
+              "description": "Canonical Strava numeric segment identifier (e.g., '935494')."
             },
             "order": {
               "type": "string",
@@ -88,8 +92,8 @@
   },
   {
     "toolSpec": {
-      "name": "triggerStarredSync",
-      "description": "Asynchronously initiates background catalog discovery and SQS enrichment for starred segments. Returns an immediate HTTP 202 status.",
+      "name": "syncStarredSegments",
+      "description": "Fetches starred segments from Strava and overwrites the athlete's 'starred_segment_list' in DynamoDB. Fast execution that does not initiate background enrichment.",
       "inputSchema": {
         "json": {
           "type": "object",
@@ -98,7 +102,57 @@
               "type": "string",
               "description": "Canonical Strava numeric athlete ID to synchronize (e.g., '3634905')."
             }
-          }
+          },
+          "required": ["athleteId"]
+        }
+      }
+    }
+  },
+  {
+    "toolSpec": {
+      "name": "manageAdditionalSegments",
+      "description": "Appends to or completely replaces the athlete's curated 'additional_segment_list' in DynamoDB.",
+      "inputSchema": {
+        "json": {
+          "type": "object",
+          "properties": {
+            "athleteId": {
+              "type": "string",
+              "description": "Canonical Strava numeric athlete ID (e.g., '3634905')."
+            },
+            "segmentIds": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "List of numeric segment IDs to add or replace."
+            },
+            "action": {
+              "type": "string",
+              "description": "Action to perform: 'append' (POST) adds and deduplicates against the existing list; 'replace' (PUT) overwrites the entire list.",
+              "enum": ["append", "replace"],
+              "default": "append"
+            }
+          },
+          "required": ["athleteId", "segmentIds"]
+        }
+      }
+    }
+  },
+  {
+    "toolSpec": {
+      "name": "triggerEnrichmentSync",
+      "description": "Asynchronously initiates background enrichment for all segments in both 'starred_segment_list' and 'additional_segment_list'. Deduplicates IDs, pushes batches of 10 to SQS, and returns an immediate HTTP 202 Accepted.",
+      "inputSchema": {
+        "json": {
+          "type": "object",
+          "properties": {
+            "athleteId": {
+              "type": "string",
+              "description": "Canonical Strava numeric athlete ID whose combined segment lists should be synced (e.g., '3634905')."
+            }
+          },
+          "required": ["athleteId"]
         }
       }
     }
