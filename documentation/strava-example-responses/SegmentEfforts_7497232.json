@@ -1,0 +1,698 @@
+{
+  "segmentId": "7497232",
+  "count": 10,
+  "efforts": [
+    {
+      "activity": {
+        "id": 18732868058,
+        "visibility": "everyone",
+        "id_str": "18732868058",
+        "resource_state": 1
+      },
+      "start_date_local": "2026-05-31T16:53:03Z",
+      "distance": 7475.8,
+      "resource_state": 2,
+      "kom_rank": null,
+      "max_heartrate": 105,
+      "start_index": 6171,
+      "visibility": "everyone",
+      "name": "Military Road Long",
+      "average_cadence": 85.9,
+      "segmentId": "7497232",
+      "achievements": [],
+      "device_watts": true,
+      "moving_time": 827,
+      "segment": {
+        "elevation_profiles": null,
+        "country": "United Kingdom",
+        "private": false,
+        "distance": 7475.8,
+        "average_grade": 0,
+        "maximum_grade": 5.5,
+        "climb_category": 0,
+        "city": "Rye TN31, UK",
+        "resource_state": 2,
+        "hazardous": false,
+        "elevation_high": 8,
+        "elevation_profile": null,
+        "start_latlng": [
+          50.968597,
+          0.748312
+        ],
+        "elevation_low": 0.1,
+        "starred": true,
+        "end_latlng": [
+          51.028495,
+          0.790323
+        ],
+        "activity_type": "Ride",
+        "name": "Military Road Long",
+        "id": 7497232,
+        "state": "England"
+      },
+      "elapsed_time": 827,
+      "id": "3496223862355151400",
+      "end_index": 6998,
+      "athlete": {
+        "id": 3634905,
+        "id_str": "3634905",
+        "resource_state": 1
+      },
+      "average_watts": 129.5,
+      "start_date": "2026-05-31T15:53:03Z",
+      "last_synced_at": "2026-09-14T21:07:20.329Z",
+      "average_heartrate": 95.1,
+      "pr_rank": null,
+      "total_segment_efforts": 10,
+      "personal_pr_rank": 7,
+      "start_date_effortId": "2026-05-31T15:53:03Z#3496223862355151400"
+    },
+    {
+      "activity": {
+        "id": 17840919311,
+        "visibility": "everyone",
+        "id_str": "17840919311",
+        "resource_state": 1
+      },
+      "start_date_local": "2026-03-24T12:42:20Z",
+      "distance": 7475.8,
+      "resource_state": 2,
+      "kom_rank": null,
+      "max_heartrate": 165,
+      "start_index": 5648,
+      "visibility": "everyone",
+      "name": "Military Road Long",
+      "average_cadence": 83.2,
+      "segmentId": "7497232",
+      "achievements": [
+        {
+          "type": "pr",
+          "rank": 1,
+          "type_id": 3
+        }
+      ],
+      "device_watts": true,
+      "moving_time": 590,
+      "segment": {
+        "elevation_profiles": null,
+        "country": "United Kingdom",
+        "private": false,
+        "distance": 7475.8,
+        "average_grade": 0,
+        "maximum_grade": 5.5,
+        "climb_category": 0,
+        "city": "Rye TN31, UK",
+        "resource_state": 2,
+        "hazardous": false,
+        "elevation_high": 8,
+        "elevation_profile": null,
+        "start_latlng": [
+          50.968597,
+          0.748312
+        ],
+        "elevation_low": 0.1,
+        "starred": true,
+        "end_latlng": [
+          51.028495,
+          0.790323
+        ],
+        "activity_type": "Ride",
+        "name": "Military Road Long",
+        "id": 7497232,
+        "state": "England"
+      },
+      "elapsed_time": 590,
+      "id": "3471530759188031000",
+      "end_index": 6238,
+      "athlete": {
+        "id": 3634905,
+        "id_str": "3634905",
+        "resource_state": 1
+      },
+      "average_watts": 274.7,
+      "start_date": "2026-03-24T12:42:20Z",
+      "last_synced_at": "2026-09-14T21:07:20.329Z",
+      "average_heartrate": 156.5,
+      "pr_rank": 1,
+      "total_segment_efforts": 10,
+      "personal_pr_rank": 1,
+      "start_date_effortId": "2026-03-24T12:42:20Z#3471530759188031000"
+    },
+    {
+      "activity": {
+        "id": 14881866986,
+        "visibility": "everyone",
+        "id_str": "14881866986",
+        "resource_state": 1
+      },
+      "start_date_local": "2025-06-22T12:04:27Z",
+      "distance": 7475.8,
+      "resource_state": 2,
+      "kom_rank": null,
+      "max_heartrate": 167,
+      "start_index": 9847,
+      "visibility": "everyone",
+      "name": "Military Road Long",
+      "average_cadence": 81.7,
+      "segmentId": "7497232",
+      "achievements": [
+        {
+          "type": "pr",
+          "rank": 2,
+          "type_id": 3
+        }
+      ],
+      "device_watts": true,
+      "moving_time": 654,
+      "segment": {
+        "elevation_profiles": null,
+        "country": "United Kingdom",
+        "private": false,
+        "distance": 7475.8,
+        "average_grade": 0,
+        "maximum_grade": 5.5,
+        "climb_category": 0,
+        "city": "Rye TN31, UK",
+        "resource_state": 2,
+        "hazardous": false,
+        "elevation_high": 8,
+        "elevation_profile": null,
+        "start_latlng": [
+          50.968597,
+          0.748312
+        ],
+        "elevation_low": 0.1,
+        "starred": true,
+        "end_latlng": [
+          51.028495,
+          0.790323
+        ],
+        "activity_type": "Ride",
+        "name": "Military Road Long",
+        "id": 7497232,
+        "state": "England"
+      },
+      "elapsed_time": 654,
+      "id": "3371880284790174700",
+      "end_index": 10501,
+      "athlete": {
+        "id": 3634905,
+        "id_str": "3634905",
+        "resource_state": 1
+      },
+      "average_watts": 256.8,
+      "start_date": "2025-06-22T11:04:27Z",
+      "last_synced_at": "2026-09-14T21:07:20.329Z",
+      "average_heartrate": 161.8,
+      "pr_rank": 2,
+      "total_segment_efforts": 10,
+      "personal_pr_rank": 3,
+      "start_date_effortId": "2025-06-22T11:04:27Z#3371880284790174700"
+    },
+    {
+      "activity": {
+        "id": 14663125092,
+        "visibility": "everyone",
+        "id_str": "14663125092",
+        "resource_state": 1
+      },
+      "start_date_local": "2025-06-01T10:28:09Z",
+      "distance": 7475.8,
+      "resource_state": 2,
+      "kom_rank": null,
+      "max_heartrate": 171,
+      "start_index": 8022,
+      "visibility": "everyone",
+      "name": "Military Road Long",
+      "average_cadence": 84.5,
+      "segmentId": "7497232",
+      "achievements": [
+        {
+          "type": "pr",
+          "rank": 2,
+          "type_id": 3
+        }
+      ],
+      "device_watts": true,
+      "moving_time": 662,
+      "segment": {
+        "elevation_profiles": null,
+        "country": "United Kingdom",
+        "private": false,
+        "distance": 7475.8,
+        "average_grade": 0,
+        "maximum_grade": 5.5,
+        "climb_category": 0,
+        "city": "Rye TN31, UK",
+        "resource_state": 2,
+        "hazardous": false,
+        "elevation_high": 8,
+        "elevation_profile": null,
+        "start_latlng": [
+          50.968597,
+          0.748312
+        ],
+        "elevation_low": 0.1,
+        "starred": true,
+        "end_latlng": [
+          51.028495,
+          0.790323
+        ],
+        "activity_type": "Ride",
+        "name": "Military Road Long",
+        "id": 7497232,
+        "state": "England"
+      },
+      "elapsed_time": 662,
+      "id": "3364260940813241300",
+      "end_index": 8684,
+      "athlete": {
+        "id": 3634905,
+        "id_str": "3634905",
+        "resource_state": 1
+      },
+      "average_watts": 229.3,
+      "start_date": "2025-06-01T09:28:09Z",
+      "last_synced_at": "2026-09-14T21:07:20.329Z",
+      "average_heartrate": 159.2,
+      "pr_rank": 2,
+      "total_segment_efforts": 10,
+      "personal_pr_rank": 4,
+      "start_date_effortId": "2025-06-01T09:28:09Z#3364260940813241300"
+    },
+    {
+      "activity": {
+        "id": 13511729504,
+        "visibility": "everyone",
+        "id_str": "13511729504",
+        "resource_state": 1
+      },
+      "start_date_local": "2025-02-01T15:00:28Z",
+      "distance": 7475.8,
+      "resource_state": 2,
+      "kom_rank": null,
+      "max_heartrate": 155,
+      "start_index": 8654,
+      "visibility": "everyone",
+      "name": "Military Road Long",
+      "average_cadence": 82.6,
+      "segmentId": "7497232",
+      "achievements": [],
+      "device_watts": true,
+      "moving_time": 887,
+      "segment": {
+        "elevation_profiles": null,
+        "country": "United Kingdom",
+        "private": false,
+        "distance": 7475.8,
+        "average_grade": 0,
+        "maximum_grade": 5.5,
+        "climb_category": 0,
+        "city": "Rye TN31, UK",
+        "resource_state": 2,
+        "hazardous": false,
+        "elevation_high": 8,
+        "elevation_profile": null,
+        "start_latlng": [
+          50.968597,
+          0.748312
+        ],
+        "elevation_low": 0.1,
+        "starred": true,
+        "end_latlng": [
+          51.028495,
+          0.790323
+        ],
+        "activity_type": "Ride",
+        "name": "Military Road Long",
+        "id": 7497232,
+        "state": "England"
+      },
+      "elapsed_time": 887,
+      "id": "3320811500604865000",
+      "end_index": 9541,
+      "athlete": {
+        "id": 3634905,
+        "id_str": "3634905",
+        "resource_state": 1
+      },
+      "average_watts": 178.1,
+      "start_date": "2025-02-01T15:00:28Z",
+      "last_synced_at": "2026-09-14T21:07:20.329Z",
+      "average_heartrate": 147.1,
+      "pr_rank": null,
+      "total_segment_efforts": 10,
+      "personal_pr_rank": 8,
+      "start_date_effortId": "2025-02-01T15:00:28Z#3320811500604865000"
+    },
+    {
+      "activity": {
+        "id": 11447928604,
+        "visibility": "everyone",
+        "id_str": "11447928604",
+        "resource_state": 1
+      },
+      "start_date_local": "2024-05-19T12:29:12Z",
+      "distance": 7475.8,
+      "resource_state": 2,
+      "kom_rank": null,
+      "max_heartrate": 135,
+      "start_index": 9888,
+      "visibility": "everyone",
+      "name": "Military Road Long",
+      "average_cadence": 86.7,
+      "segmentId": "7497232",
+      "achievements": [],
+      "device_watts": true,
+      "moving_time": 940,
+      "segment": {
+        "elevation_profiles": null,
+        "country": "United Kingdom",
+        "private": false,
+        "distance": 7475.8,
+        "average_grade": 0,
+        "maximum_grade": 5.5,
+        "climb_category": 0,
+        "city": "Rye TN31, UK",
+        "resource_state": 2,
+        "hazardous": false,
+        "elevation_high": 8,
+        "elevation_profile": null,
+        "start_latlng": [
+          50.968597,
+          0.748312
+        ],
+        "elevation_low": 0.1,
+        "starred": true,
+        "end_latlng": [
+          51.028495,
+          0.790323
+        ],
+        "activity_type": "Ride",
+        "name": "Military Road Long",
+        "id": 7497232,
+        "state": "England"
+      },
+      "elapsed_time": 940,
+      "id": "3227277558522171000",
+      "end_index": 10828,
+      "athlete": {
+        "id": 3634905,
+        "id_str": "3634905",
+        "resource_state": 1
+      },
+      "average_watts": 189.9,
+      "start_date": "2024-05-19T11:29:12Z",
+      "last_synced_at": "2026-09-14T21:07:20.329Z",
+      "average_heartrate": 125.7,
+      "pr_rank": null,
+      "total_segment_efforts": 10,
+      "personal_pr_rank": 9,
+      "start_date_effortId": "2024-05-19T11:29:12Z#3227277558522171000"
+    },
+    {
+      "activity": {
+        "id": 9499187131,
+        "visibility": "everyone",
+        "id_str": "9499187131",
+        "resource_state": 1
+      },
+      "start_date_local": "2023-07-22T11:09:50Z",
+      "distance": 7475.8,
+      "resource_state": 2,
+      "kom_rank": null,
+      "max_heartrate": 167,
+      "start_index": 11376,
+      "visibility": "everyone",
+      "name": "Military Road Long",
+      "average_cadence": 83.8,
+      "segmentId": "7497232",
+      "achievements": [
+        {
+          "type": "pr",
+          "rank": 1,
+          "type_id": 3
+        }
+      ],
+      "device_watts": true,
+      "moving_time": 650,
+      "segment": {
+        "elevation_profiles": null,
+        "country": "United Kingdom",
+        "private": false,
+        "distance": 7475.8,
+        "average_grade": 0,
+        "maximum_grade": 5.5,
+        "climb_category": 0,
+        "city": "Rye TN31, UK",
+        "resource_state": 2,
+        "hazardous": false,
+        "elevation_high": 8,
+        "elevation_profile": null,
+        "start_latlng": [
+          50.968597,
+          0.748312
+        ],
+        "elevation_low": 0.1,
+        "starred": true,
+        "end_latlng": [
+          51.028495,
+          0.790323
+        ],
+        "activity_type": "Ride",
+        "name": "Military Road Long",
+        "id": 7497232,
+        "state": "England"
+      },
+      "elapsed_time": 650,
+      "id": "3117796945763669000",
+      "end_index": 12026,
+      "athlete": {
+        "id": 3634905,
+        "id_str": "3634905",
+        "resource_state": 1
+      },
+      "average_watts": 249.2,
+      "start_date": "2023-07-22T10:09:50Z",
+      "last_synced_at": "2026-09-14T21:07:20.329Z",
+      "average_heartrate": 159,
+      "pr_rank": 1,
+      "total_segment_efforts": 10,
+      "personal_pr_rank": 2,
+      "start_date_effortId": "2023-07-22T10:09:50Z#3117796945763669000"
+    },
+    {
+      "activity": {
+        "id": 8847700274,
+        "visibility": "everyone",
+        "id_str": "8847700274",
+        "resource_state": 1
+      },
+      "start_date_local": "2023-04-07T11:49:20Z",
+      "distance": 7475.8,
+      "resource_state": 2,
+      "kom_rank": null,
+      "max_heartrate": 165,
+      "start_index": 11760,
+      "visibility": "everyone",
+      "name": "Military Road Long",
+      "average_cadence": 84.9,
+      "segmentId": "7497232",
+      "achievements": [
+        {
+          "type": "pr",
+          "rank": 1,
+          "type_id": 3
+        }
+      ],
+      "device_watts": true,
+      "moving_time": 757,
+      "segment": {
+        "elevation_profiles": null,
+        "country": "United Kingdom",
+        "private": false,
+        "distance": 7475.8,
+        "average_grade": 0,
+        "maximum_grade": 5.5,
+        "climb_category": 0,
+        "city": "Rye TN31, UK",
+        "resource_state": 2,
+        "hazardous": false,
+        "elevation_high": 8,
+        "elevation_profile": null,
+        "start_latlng": [
+          50.968597,
+          0.748312
+        ],
+        "elevation_low": 0.1,
+        "starred": true,
+        "end_latlng": [
+          51.028495,
+          0.790323
+        ],
+        "activity_type": "Ride",
+        "name": "Military Road Long",
+        "id": 7497232,
+        "state": "England"
+      },
+      "elapsed_time": 757,
+      "id": "3079404902294772700",
+      "end_index": 12517,
+      "athlete": {
+        "id": 3634905,
+        "id_str": "3634905",
+        "resource_state": 1
+      },
+      "average_watts": 216.2,
+      "start_date": "2023-04-07T10:49:20Z",
+      "last_synced_at": "2026-09-14T21:07:20.329Z",
+      "average_heartrate": 147.8,
+      "pr_rank": 1,
+      "total_segment_efforts": 10,
+      "personal_pr_rank": 5,
+      "start_date_effortId": "2023-04-07T10:49:20Z#3079404902294772700"
+    },
+    {
+      "activity": {
+        "id": 5361130688,
+        "visibility": "everyone",
+        "id_str": "5361130688",
+        "resource_state": 1
+      },
+      "start_date_local": "2021-05-26T13:42:43Z",
+      "distance": 7475.8,
+      "resource_state": 2,
+      "kom_rank": null,
+      "max_heartrate": 143,
+      "start_index": 13485,
+      "visibility": "everyone",
+      "name": "Military Road Long",
+      "average_cadence": 74.2,
+      "segmentId": "7497232",
+      "achievements": [
+        {
+          "type": "pr",
+          "rank": 1,
+          "type_id": 3
+        }
+      ],
+      "device_watts": true,
+      "moving_time": 825,
+      "segment": {
+        "elevation_profiles": null,
+        "country": "United Kingdom",
+        "private": false,
+        "distance": 7475.8,
+        "average_grade": 0,
+        "maximum_grade": 5.5,
+        "climb_category": 0,
+        "city": "Rye TN31, UK",
+        "resource_state": 2,
+        "hazardous": false,
+        "elevation_high": 8,
+        "elevation_profile": null,
+        "start_latlng": [
+          50.968597,
+          0.748312
+        ],
+        "elevation_low": 0.1,
+        "starred": true,
+        "end_latlng": [
+          51.028495,
+          0.790323
+        ],
+        "activity_type": "Ride",
+        "name": "Military Road Long",
+        "id": 7497232,
+        "state": "England"
+      },
+      "elapsed_time": 825,
+      "id": "2910579177848794600",
+      "end_index": 14310,
+      "athlete": {
+        "id": 3634905,
+        "id_str": "3634905",
+        "resource_state": 1
+      },
+      "average_watts": 164.4,
+      "start_date": "2021-05-26T12:42:43Z",
+      "last_synced_at": "2026-09-14T21:07:20.329Z",
+      "average_heartrate": 121,
+      "pr_rank": 1,
+      "total_segment_efforts": 10,
+      "personal_pr_rank": 6,
+      "start_date_effortId": "2021-05-26T12:42:43Z#2910579177848794600"
+    },
+    {
+      "activity": {
+        "id": 3536556712,
+        "visibility": "everyone",
+        "id_str": "3536556712",
+        "resource_state": 1
+      },
+      "start_date_local": "2020-05-30T14:36:49Z",
+      "distance": 7475.8,
+      "resource_state": 2,
+      "kom_rank": null,
+      "max_heartrate": 132,
+      "start_index": 5737,
+      "visibility": "everyone",
+      "name": "Military Road Long",
+      "average_cadence": 66.8,
+      "segmentId": "7497232",
+      "achievements": [
+        {
+          "type": "pr",
+          "rank": 2,
+          "type_id": 3
+        }
+      ],
+      "device_watts": true,
+      "moving_time": 1045,
+      "segment": {
+        "elevation_profiles": null,
+        "country": "United Kingdom",
+        "private": false,
+        "distance": 7475.8,
+        "average_grade": 0,
+        "maximum_grade": 5.5,
+        "climb_category": 0,
+        "city": "Rye TN31, UK",
+        "resource_state": 2,
+        "hazardous": false,
+        "elevation_high": 8,
+        "elevation_profile": null,
+        "start_latlng": [
+          50.968597,
+          0.748312
+        ],
+        "elevation_low": 0.1,
+        "starred": true,
+        "end_latlng": [
+          51.028495,
+          0.790323
+        ],
+        "activity_type": "Ride",
+        "name": "Military Road Long",
+        "id": 7497232,
+        "state": "England"
+      },
+      "elapsed_time": 1045,
+      "id": "2910579417316881400",
+      "end_index": 6782,
+      "athlete": {
+        "id": 3634905,
+        "id_str": "3634905",
+        "resource_state": 1
+      },
+      "average_watts": 136.8,
+      "start_date": "2020-05-30T13:36:49Z",
+      "last_synced_at": "2026-09-14T21:07:20.329Z",
+      "average_heartrate": 119.9,
+      "pr_rank": 2,
+      "total_segment_efforts": 10,
+      "personal_pr_rank": 10,
+      "start_date_effortId": "2020-05-30T13:36:49Z#2910579417316881400"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": 7497232,
+  "resource_state": 3,
+  "name": "Military Road Long",
+  "activity_type": "Ride",
+  "distance": 7475.8,
+  "average_grade": 0,
+  "maximum_grade": 5.5,
+  "elevation_high": 8,
+  "elevation_low": 0.1,
+  "start_latlng": [
+    50.968597,
+    0.748312
+  ],
+  "end_latlng": [
+    51.028495,
+    0.790323
+  ],
+  "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/PXFQJLWRXXZGRNUJNF5VNN7Q7PY6HG7Y4ABGAEZ2P43GKRU4YOSP3LV7ANZE4IKZHZL4NCQIIKSJXHVNJTVQMCA=",
+  "elevation_profiles": {
+    "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/PXFQJLWRXXZGRNUJNF5VNN7Q7PY6HG7Y4ABGAEZ2P43GKRU4YOSP3LV7ANZE4IKZHZL4NCQIIKSJXHVNJTVQMCA=",
+    "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/HK3NZT7T4WW5V4CUZDCZDUZRVA7X4C6M3QGXALAWQXNSA35GCOZLDTBWVABDO5JDQBKRG2IXGORHNUNFOYPMA6A="
+  },
+  "climb_category": 0,
+  "city": "Rye TN31, UK",
+  "state": "England",
+  "country": "United Kingdom",
+  "private": false,
+  "hazardous": false,
+  "starred": true,
+  "created_at": "2014-06-23T20:12:49Z",
+  "updated_at": "2026-09-15T08:02:09Z",
+  "total_elevation_gain": 21.5,
+  "map": {
+    "id": "s7497232",
+    "polyline": "uxavH}cqCoAsBgAwAwCkDgDwDWUyEaCoNyGma@aR_FaAuI_AeFUuEKyA@}AFKHMAUGIMwAk@e@[M?WUQ_@KIOGOYICkQwOk@Y_Cw@g@YiWcUs@c@cAYg@WyVoT_@UiAYw@_@yWeUgAi@oCaAIOyAc@e@Uw@Uq@YODKCKIu@W_@EcA_@s@Qo@YKIi@K}Am@[GMGKM[Ei@Su@m@q@_AOAWOc@OsXiJYOWS}@}@[SwYmKs@c@mAkA[QcBu@wJmD}K{FSOW]S_@Y}@KMMg@CYkI_\\}@_BkCcE",
+    "resource_state": 3
+  },
+  "effort_count": 57909,
+  "athlete_count": 11177,
+  "star_count": 136,
+  "athlete_segment_stats": {
+    "pr_elapsed_time": 590,
+    "pr_date": "2026-03-24",
+    "pr_visibility": "everyone",
+    "pr_activity_id": 17840919311,
+    "pr_activity_id_str": "17840919311",
+    "pr_activity_visibility": "everyone",
+    "effort_count": 10
+  },
+  "xoms": {
+    "kom": "7:56",
+    "qom": "9:15",
+    "overall": "7:56",
+    "destination": {
+      "href": "strava://segments/7497232/leaderboard",
+      "type": "overall",
+      "name": "All-Time"
+    }
+  },
+  "local_legend": {
+    "athlete_id": 9489680,
+    "athlete_id_str": "9489680",
+    "title": "paul osborne",
+    "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/9489680/2902500/2/large.jpg",
+    "effort_description": "32 efforts in the last 90 days",
+    "effort_count": "32",
+    "effort_counts": {
+      "overall": "32 efforts",
+      "female": "10 efforts"
+    },
+    "destination": "strava://segments/7497232/local_legend?categories%5B%5D=overall"
+  },
+  "segmentId": "7497232",
+  "athleteId": "3634905",
+  "last_synced_at": "2026-09-15T20:48:13.481Z"
+}

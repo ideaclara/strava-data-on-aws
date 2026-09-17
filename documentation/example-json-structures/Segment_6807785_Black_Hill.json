@@ -1,0 +1,77 @@
+{
+  "id": 6807785,
+  "resource_state": 3,
+  "name": "Black Hill Bottom to Top",
+  "activity_type": "Ride",
+  "distance": 3565,
+  "average_grade": 4.5,
+  "maximum_grade": 15.4,
+  "elevation_high": 201.4,
+  "elevation_low": 41.6,
+  "start_latlng": [
+    51.081475,
+    0.13877
+  ],
+  "end_latlng": [
+    51.059254,
+    0.105817
+  ],
+  "elevation_profile": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/W3H5GMJMOCY2KQUSGSHSEAGU4E2QI6EOII4ZFCETTDTJ2H4NARNVOERXHA4IU5GFG4XAA3JR7JYWZXUHW3IYP267",
+  "elevation_profiles": {
+    "light_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/W3H5GMJMOCY2KQUSGSHSEAGU4E2QI6EOII4ZFCETTDTJ2H4NARNVOERXHA4IU5GFG4XAA3JR7JYWZXUHW3IYP267",
+    "dark_url": "https://d3o5xota0a1fcr.cloudfront.net/v6/charts/I2ULARBN24O6XYPYPJ3VCV7FLF6CP6LDC6AT5MH2VDMMGO7F25KZQSYJDZRKUDX3B6JXGAQSN4EOQTETBVJKLMHZ"
+  },
+  "climb_category": 1,
+  "city": "Friar'S Gate",
+  "state": "England",
+  "country": "United Kingdom",
+  "private": false,
+  "hazardous": false,
+  "starred": true,
+  "created_at": "2014-03-09T08:51:10Z",
+  "updated_at": "2026-09-15T08:02:04Z",
+  "total_elevation_gain": 0,
+  "map": {
+    "id": "s6807785",
+    "polyline": "ezwvHibZ\\T~@x@x@bAfCbCn@p@LTbAfAh@f@Xd@RNb@t@TXFTJL^\\ZLn@J\\Rv@Jh@J~@FTHF?PDvAh@^Bv@Vt@Nt@T^Hr@Fn@\\VTx@f@b@v@l@v@n@|At@fC\\lB|BbK`B~HNt@`@rCHVNx@X`D`@nDl@jETnBNf@VzAZdARb@pApAZh@f@^NPRNZX|@pAdA`BRf@ZVn@`Bz@|AN`@|@xA~@pAd@~AP^x@nC`@t@\\v@|AlEz@pDVvAzAlEj@nAT`AR\\t@rBj@nAx@nBXd@n@f@NFFJn@f@`@j@b@f@Xd@NN|@r@tAt@LRfD`CRJvA`A`Aj@n@h@bArAfA`B",
+    "resource_state": 3
+  },
+  "effort_count": 62244,
+  "athlete_count": 12550,
+  "star_count": 397,
+  "athlete_segment_stats": {
+    "pr_elapsed_time": 599,
+    "pr_date": "2026-04-18",
+    "pr_visibility": "everyone",
+    "pr_activity_id": 18158841420,
+    "pr_activity_id_str": "18158841420",
+    "pr_activity_visibility": "everyone",
+    "effort_count": 15
+  },
+  "xoms": {
+    "kom": "7:11",
+    "qom": "8:09",
+    "overall": "7:11",
+    "destination": {
+      "href": "strava://segments/6807785/leaderboard",
+      "type": "overall",
+      "name": "All-Time"
+    }
+  },
+  "local_legend": {
+    "athlete_id": 31936599,
+    "athlete_id_str": "31936599",
+    "title": "Noah Wheller",
+    "profile": "https://dgalywyr863hv.cloudfront.net/pictures/athletes/31936599/10712360/18/large.jpg",
+    "effort_description": "14 efforts in the last 90 days",
+    "effort_count": "14",
+    "effort_counts": {
+      "overall": "14 efforts",
+      "female": "5 efforts"
+    },
+    "destination": "strava://segments/6807785/local_legend?categories%5B%5D=overall"
+  },
+  "segmentId": "6807785",
+  "athleteId": "3634905",
+  "last_synced_at": "2026-09-15T20:01:01.815Z"
+}

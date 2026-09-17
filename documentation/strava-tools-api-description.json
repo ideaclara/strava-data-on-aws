@@ -102,5 +102,61 @@
         }
       }
     }
+  },
+  {
+    "toolSpec": {
+      "name": "predictSegmentEffort",
+      "description": "Predicts all-out cycling performance (expected power in Watts, completion time in seconds, confidence bounds, and model certainty) using an aerodynamic and metabolic equilibrium model. Supports two modes: (1) using a known segment ID and athlete ID, or (2) using custom climb geometry and explicit fitness parameters.",
+      "inputSchema": {
+        "json": {
+          "type": "object",
+          "properties": {
+            "segmentId": {
+              "type": "string",
+              "description": "Optional canonical Strava segment identifier (e.g., '6807785'). Used for Option 1."
+            },
+            "athleteId": {
+              "type": "string",
+              "description": "Canonical Strava athlete ID (e.g., '3634905'). Used in Option 1 to look up stored biometrics and fitness profile."
+            },
+            "distance_m": {
+              "type": "number",
+              "description": "Total climb distance in meters. Required for custom calculation (Option 2)."
+            },
+            "elevation_gain_m": {
+              "type": "number",
+              "description": "Total elevation gain in meters. Required for custom calculation (Option 2)."
+            },
+            "rider_mass_kg": {
+              "type": "number",
+              "description": "Rider body mass in kilograms (excluding bike/kit). Required for custom calculation (Option 2)."
+            },
+            "fitness_profile": {
+              "type": "object",
+              "description": "Metabolic power profile parameters. Required for custom calculation (Option 2).",
+              "properties": {
+                "threshold_power_watts": {
+                  "type": "number",
+                  "description": "Functional Threshold Power (FTP) or Critical Power in Watts."
+                },
+                "high_intensity_energy_kj": {
+                  "type": "number",
+                  "description": "High Intensity Energy (HIE) or anaerobic work capacity (W') in kilojoules."
+                },
+                "peak_power_watts": {
+                  "type": "number",
+                  "description": "Neuromuscular peak power ceiling in Watts."
+                }
+              },
+              "required": [
+                "threshold_power_watts",
+                "high_intensity_energy_kj",
+                "peak_power_watts"
+              ]
+            }
+          }
+        }
+      }
+    }
   }
 ]
